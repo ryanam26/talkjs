@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TalkJS Demo</title>
+    <script>
+      (function(t,a,l,k,j,s){
+        s=a.createElement('script');s.async=1;s.src='https://cdn.talkjs.com/talk.js';a.head.appendChild(s)
+        ;k=t.Promise;t.Talk={v:3,ready:{then:function(f){if(k)return new k(function(r,e){l.push([f,r,e])});l
+        .push([f])},catch:function(){return k&&new k()},c:l}};})(window,document,[]);
+    </script>
+    <script>
+      // Test if TalkJS is ready
+      setTimeout(() => {
+        if (window.Talk && window.Talk.ready) {
+          window.Talk.ready.then(() => {
+            console.log('TalkJS global:', window.Talk);
+          });
+        } else {
+          console.log('TalkJS not ready yet');
+        }
+      }, 1000);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

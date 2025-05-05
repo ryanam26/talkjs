@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TalkJS Standalone Test</title>
+    <script src="https://cdn.talkjs.com/talk.js"></script>
+    <script>
+      setTimeout(() => {
+        console.log('TalkJS global:', window.Talk);
+      }, 1000);
+    </script>
+  </head>
+  <body>
+    <div id="talkjs-container" style="width: 90%; margin: 30px; height: 500px">
+      <i>Loading chat...</i>
+    </div>
+    <script>
+      setTimeout(() => {
+        if (window.Talk && window.Talk.ready) {
+          window.Talk.ready.then(() => {
+            const session = new window.Talk.Session({
+              appId: 'tgga7aVE',
+              userId: 'nina',
+            });
+            session.currentUser.createIfNotExists({
+              name: 'Nina',
+              email: 'nina@example.com',
+              photoUrl: 'https://talkjs.com/new-web/avatar-7.jpg',
+              welcomeMessage: 'Hi!',
+            });
+            const other = session.user('frank');
+            other.createIfNotExists({
+              name: 'Frank',
+              email: 'frank@example.com',
+              photoUrl: 'https://talkjs.com/new-web/avatar-8.jpg',
+              welcomeMessage: 'Hey, how can I help?',
+            });
+            const conversation = session.conversation('new_conversation');
+            conversation.createIfNotExists();
+            conversation.participant(other).createIfNotExists();
+            const chatbox = session.createChatbox();
+            chatbox.select(conversation);
+            chatbox.mount(document.getElementById('talkjs-container'));
+          });
+        }
+      }, 1500);
+    </script>
+  </body>
+</html> 
