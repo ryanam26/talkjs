@@ -37,8 +37,9 @@ const TalkJSChat = () => {
             me: me,
           });
 
-          // Use a new conversation ID to avoid old participants
-          const conversation = session.getOrCreateConversation('nina_and_bot_conversation');
+          // Use a unique conversation ID for a fresh chat every load
+          const uniqueConversationId = `nina_and_bot_${Date.now()}`;
+          const conversation = session.getOrCreateConversation(uniqueConversationId);
           conversation.setParticipant(me);
           conversation.setParticipant(bot);
 
@@ -60,11 +61,13 @@ const TalkJSChat = () => {
   }, []);
 
   return (
-    <div
-      ref={chatboxEl}
-      style={{ width: '90%', margin: '30px', height: '500px' }}
-    >
-      <i>Loading chat...</i>
+    <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+      <div
+        ref={chatboxEl}
+        style={{ width: 400, maxWidth: '90vw', margin: '0 auto', height: '500px' }}
+      >
+        <i>Loading chat...</i>
+      </div>
     </div>
   );
 };

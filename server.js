@@ -1,11 +1,11 @@
+import 'dotenv/config';
 import express from "express";
 import OpenAI from "openai";
 import fetch from "node-fetch";
 
 const app = express().use(express.json());
 
-const openAISecretKey = process.env.OPENAI_SECRET_KEY;
-const openai = new OpenAI({ apiKey: openAISecretKey });
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 const appId = process.env.TALKJS_APP_ID;
 const talkJSSecretKey = process.env.TALKJS_SECRET_KEY;
