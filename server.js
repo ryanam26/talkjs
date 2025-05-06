@@ -2,6 +2,8 @@ import 'dotenv/config';
 import express from "express";
 import OpenAI from "openai";
 import fetch from "node-fetch";
+import fs from "fs";
+import path from "path";
 
 const app = express().use(express.json());
 
@@ -13,6 +15,8 @@ const basePath = "https://api.talkjs.com";
 const botId = "chatbotExampleBot";
 const allMessageHistory = {};
 
+const loanData = JSON.parse(fs.readFileSync(path.join(__dirname, "loanData.json"), "utf8"));
+
 app.post("/onMessageSent", async (req, res) => {
   console.log("Webhook received:", JSON.stringify(req.body, null, 2));
   const convId = req.body.data.conversation.id;
@@ -23,7 +27,7 @@ app.post("/onMessageSent", async (req, res) => {
     allMessageHistory[convId] = [
       {
         role: "system",
-        content: "You are a helpful loan assistant for NFTYDoor. NftyDoor is a digital heloc lender. Please provide short, concise answers about heloc loans and the application process.",
+        content: `You are a helpful loan assistant for NFTYDoor. Here is the current loan data for context: ${JSON.stringify(loanData)}. Use this information to answer questions about this loan.`,
       },
     ];
   }

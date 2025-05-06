@@ -1,5 +1,7 @@
 import OpenAI from "openai";
 import fetch from "node-fetch";
+import fs from "fs";
+import path from "path";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_SECRET_KEY });
 
@@ -8,6 +10,7 @@ const talkJSSecretKey = process.env.TALKJS_SECRET_KEY;
 const basePath = "https://api.talkjs.com";
 const botId = "chatbotExampleBot";
 const allMessageHistory = {};
+const loanData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "loanData.json"), "utf8"));
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
@@ -23,7 +26,7 @@ export default async function handler(req, res) {
     allMessageHistory[convId] = [
       {
         role: "system",
-        content: "You are a helpful loan assistant for NFTYDoor. NftyDoor is a digital heloc lender. Please provide short, concise answers about heloc loans and the application process.",
+        content: `You are a helpful loan assistant for NFTYDoor. Here is the current loan data for context: ${JSON.stringify(loanData)}. Use this information to answer questions about this loan.`,
       },
     ];
   }
