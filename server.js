@@ -18,7 +18,7 @@ const allMessageHistory = {};
 const loanData = JSON.parse(fs.readFileSync(path.join(__dirname, "loanData.json"), "utf8"));
 
 function getLoanMarkdownSummary(loan) {
-  return `You are a helpful loan assistant for NFTYDoor. Here is the current loan data in a Markdown table:\n\n` +
+  return `You are a helpful loan assistant for NFTYDoor. Here is the current loan data in a Markdown table, You are allowed to provide the loan ID and other details from the table below if the user asks.:\n\n` +
     `| Field         | Value              |\n` +
     `|---------------|--------------------|\n` +
     `| **Loan ID**   | ${loan.id}         |\n` +
