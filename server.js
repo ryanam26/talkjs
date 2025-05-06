@@ -17,6 +17,18 @@ const allMessageHistory = {};
 
 const loanData = JSON.parse(fs.readFileSync(path.join(__dirname, "loanData.json"), "utf8"));
 
+function getLoanMarkdownSummary(loan) {
+  return `You are a helpful loan assistant for NFTYDoor. Here is the current loan data in a Markdown table:\n\n` +
+    `| Field         | Value              |\n` +
+    `|---------------|--------------------|\n` +
+    `| **Loan ID**   | ${loan.id}         |\n` +
+    `| **Borrower**  | ${loan.borrowerFullName} |\n` +
+    `| **Email**     | ${loan.borrowerEmail}    |\n` +
+    `| **Loan Amount** | $${loan.finalOffer && loan.finalOffer.amount ? loan.finalOffer.amount.toLocaleString() : 'N/A'} |\n` +
+    `| **Status**    | ${loan.borrowerStatusCode} |\n` +
+    `\nUse this information to answer questions about this loan.`;
+}
+
 app.post("/onMessageSent", async (req, res) => {
   console.log("Webhook received:", JSON.stringify(req.body, null, 2));
   const convId = req.body.data.conversation.id;
@@ -27,7 +39,7 @@ app.post("/onMessageSent", async (req, res) => {
     allMessageHistory[convId] = [
       {
         role: "system",
-        content: `You are a helpful loan assistant for NFTYDoor. Here is the current loan data for context: ${JSON.stringify(loanData)}. Use this information to answer questions about this loan.`,
+        content: getLoanMarkdownSummary(loanData),
       },
     ];
   }

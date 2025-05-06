@@ -12,6 +12,18 @@ const botId = "chatbotExampleBot";
 const allMessageHistory = {};
 const loanData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "loanData.json"), "utf8"));
 
+function getLoanMarkdownSummary(loan) {
+  return `You are a helpful loan assistant for NFTYDoor. Here is the current loan data in a Markdown table:\n\n` +
+    `| Field         | Value              |\n` +
+    `|---------------|--------------------|\n` +
+    `| **Loan ID**   | ${loan.id}         |\n` +
+    `| **Borrower**  | ${loan.borrowerFullName} |\n` +
+    `| **Email**     | ${loan.borrowerEmail}    |\n` +
+    `| **Loan Amount** | $${loan.finalOffer && loan.finalOffer.amount ? loan.finalOffer.amount.toLocaleString() : 'N/A'} |\n` +
+    `| **Status**    | ${loan.borrowerStatusCode} |\n` +
+    `\nUse this information to answer questions about this loan.`;
+}
+
 export default async function handler(req, res) {
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });
@@ -26,7 +38,7 @@ export default async function handler(req, res) {
     allMessageHistory[convId] = [
       {
         role: "system",
-        content: `You are a helpful loan assistant for NFTYDoor. Here is the current loan data for context: ${JSON.stringify(loanData)}. Use this information to answer questions about this loan.`,
+        content: getLoanMarkdownSummary(loanData),
       },
     ];
   }
