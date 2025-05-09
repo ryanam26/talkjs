@@ -3,77 +3,3528 @@
   "amortizationTerm": 300,
   "apDate": "2025-04-28T12:54:07.525Z",
   "auditFindings": [
-    {
-      "auditCategory": "Compliance",
-      "auditFinding": "Borrower's income was miscalculated in underwriting",
-      "auditIssue": "Incorrect Income Calculation",
-      "deliveredAt": "2025-05-05T11:56:46.587Z",
-      "exceptionRebuttal": "Lender provided additional proof of income",
-      "exceptionResponse": "Income recalculated and corrected",
-      "finalFindingsGrade": 3,
-      "finalLoanGrade": 3,
-      "findingId": "F006",
-      "initialFindingsGrade": 2,
-      "initialLoanGrade": 4,
-      "investorResponse": "Pending Review",
-      "loanId": "100545844699416",
-      "remediationStatus": "In Progress",
-      "responseDate": "2025-04-16T04:57:15.38"
-    },
-    {
-      "assignedToId": "490feab6-3bf5-4aab-bc04-a4453608ed07",
-      "assignedToLabel": "nicolas muller",
-      "auditCategory": "Compliance",
-      "auditFinding": "Borrower's income was miscalculated in underwriting",
-      "auditIssue": "Incorrect Income Calculation",
-      "deliveredAt": "2025-05-05T11:56:46.587Z",
-      "exceptionRebuttal": "Lender provided additional proof of income",
-      "exceptionResponse": "Income recalculated and corrected",
-      "finalFindingsGrade": 3,
-      "finalLoanGrade": 3,
-      "findingId": "F006",
-      "initialFindingsGrade": 2,
-      "initialLoanGrade": 4,
-      "investorResponse": "Pending Review",
-      "loanId": "100545844699416",
-      "masterRecord": true,
-      "remediationStatus": "In Progress",
-      "responseDate": "2025-04-16T04:57:15.38"
-    }
+   {
+    "auditCategory": "Compliance",
+    "auditFinding": "Borrower's income was miscalculated in underwriting",
+    "auditIssue": "Incorrect Income Calculation",
+    "deliveredAt": "2025-05-05T11:56:46.587Z",
+    "exceptionRebuttal": "Lender provided additional proof of income",
+    "exceptionResponse": "Income recalculated and corrected",
+    "finalFindingsGrade": 3,
+    "finalLoanGrade": 3,
+    "findingId": "F006",
+    "initialFindingsGrade": 2,
+    "initialLoanGrade": 4,
+    "investorResponse": "Pending Review",
+    "loanId": "100545844699416",
+    "remediationStatus": "In Progress",
+    "responseDate": "2025-04-16T04:57:15.38"
+   },
+   {
+    "assignedToId": "490feab6-3bf5-4aab-bc04-a4453608ed07",
+    "assignedToLabel": "nicolas muller",
+    "auditCategory": "Compliance",
+    "auditFinding": "Borrower's income was miscalculated in underwriting",
+    "auditIssue": "Incorrect Income Calculation",
+    "deliveredAt": "2025-05-05T11:56:46.587Z",
+    "exceptionRebuttal": "Lender provided additional proof of income",
+    "exceptionResponse": "Income recalculated and corrected",
+    "finalFindingsGrade": 3,
+    "finalLoanGrade": 3,
+    "findingId": "F006",
+    "initialFindingsGrade": 2,
+    "initialLoanGrade": 4,
+    "investorResponse": "Pending Review",
+    "loanId": "100545844699416",
+    "masterRecord": true,
+    "remediationStatus": "In Progress",
+    "responseDate": "2025-04-16T04:57:15.38"
+   }
   ],
   "borrowerEmail": "rfm@yopmail.com",
   "borrowerEmploymentType": "Full Time Employed/ W2",
   "borrowerFirstName": "Ronald",
   "borrowerFlags": {
-    "boConsentedHardpull": true,
-    "closingSigned": true,
-    "completedByBorrower": false,
-    "finalOfferAccepted": true,
-    "inATrust": false,
-    "initialOfferAccepted": true,
-    "initialOfferChanged": true,
-    "isMTA1380Error": false,
-    "isRentalIncome": false,
-    "manualAddress": false,
-    "needsReview": true,
-    "notifiedScheduledClosing": false,
-    "offeredAddingEmployment": true,
-    "offeredAddingNPEAsCoborrower": true,
-    "readyForFunding": true,
-    "showedPlaidWarning": true,
-    "signUpCheckboxes": {
-      "communicationConsent": true,
-      "privacyPolicyConsent": true,
-      "receiveSMSConsent": true,
-      "signUpDate": "2025-04-28T12:53:31.283Z"
-    },
-    "tradelinesEdited": true,
-    "userHasLoanInOtherPrivateLabel": false,
-    "valuationReviewPending": false
+   "boConsentedHardpull": true,
+   "closingSigned": true,
+   "completedByBorrower": false,
+   "finalOfferAccepted": true,
+   "inATrust": false,
+   "initialOfferAccepted": true,
+   "initialOfferChanged": true,
+   "isMTA1380Error": false,
+   "isRentalIncome": false,
+   "manualAddress": false,
+   "needsReview": true,
+   "notifiedScheduledClosing": false,
+   "offeredAddingEmployment": true,
+   "offeredAddingNPEAsCoborrower": true,
+   "readyForFunding": true,
+   "showedPlaidWarning": true,
+   "signUpCheckboxes": {
+    "communicationConsent": true,
+    "privacyPolicyConsent": true,
+    "receiveSMSConsent": true,
+    "signUpDate": "2025-04-28T12:53:31.283Z"
+   },
+   "tradelinesEdited": true,
+   "userHasLoanInOtherPrivateLabel": false,
+   "valuationReviewPending": false
   },
   "borrowerFullName": "Ronald Frame",
   "borrowerId": "38116bc5-dfbf-4261-b4e2-e91343d57607",
   "borrowerLastName": "Frame",
   "borrowerMissingDocs": {},
-  "borrowerStatusCode": "B1BRD3"
-} 
+  "borrowerStatusCode": "B1BRD3",
+  "borrowerSteps": {
+   "brokerDisclosuresVerification": {
+    "dateB1Signed": "2025-04-28T12:55:59.598Z",
+    "docLinkExpireDate": "2025-05-12T06:52:46.000Z",
+    "firstSentAt": "2025-04-28T12:52:53.890Z",
+    "link": "https://stage.stg.solex.com/welcome/a1b94136-8c70-43d4-b3aa-639f676b0620",
+    "message": "We received your signed documents!",
+    "status": "success",
+    "updatedAt": "2025-04-28T12:52:53.890Z"
+   },
+   "createdAt": "2025-04-28T12:53:31.283Z",
+   "createNewOfferVerification": {
+    "message": "We created an offer with verified values",
+    "status": "success"
+   },
+   "creditVerification": {
+    "ALJ5820": 920,
+    "ALL5820": 928,
+    "ALL5820FromAPI": 1092,
+    "alternateNames": [
+     {
+      "firstName": "RONALD",
+      "middleName": "W",
+      "surname": "FRAME",
+      "yearOfBirth": "1944"
+     }
+    ],
+    "creditScore": 836,
+    "creditScoreFromAPI": 836,
+    "firstLienDiscount": false,
+    "lienPosition": 2,
+    "loanBalance": 56326,
+    "loanBalanceFromAPI": 56326,
+    "message": "Completed! 836 FICO Score!",
+    "monthlyDebtLoad": 928,
+    "monthlyDebtLoadFromAPI": 1092,
+    "monthlyLoanPayment": 920,
+    "MTA5830": 920,
+    "processingStatus": false,
+    "reasonCode": "A001",
+    "riskFactors": [
+     "Proportion of loan balances to loan amounts is too high",
+     "Length of time accounts have been established",
+     "Too few accounts currently paid as agreed"
+    ],
+    "status": "success",
+    "updatedAt": "2025-04-28T12:51:52.684Z"
+   },
+   "demographicsVerification": {
+    "citizenship": "US citizen",
+    "ethnicity": {
+     "cuban": false,
+     "customEthnicity": "",
+     "hispanicOrLatino": false,
+     "mexican": false,
+     "notHispanicOrLatino": true,
+     "otherHispanicOrLatino": false,
+     "prefNoSay": true,
+     "puertoRican": false
+    },
+    "race": {
+     "americanIndianOrAlaskaNative": false,
+     "asian": false,
+     "asianIndian": false,
+     "blackOrAfricanAmerican": false,
+     "chinese": false,
+     "customAmericanIndianOrAlaskan": "",
+     "customOtherAsian": "",
+     "customOtherPacificIslander": "",
+     "filipino": false,
+     "guamanianOrChamorro": false,
+     "japanese": false,
+     "korean": false,
+     "nativeHawaiian": false,
+     "nativeHawaiianOrOtherPacificIslander": false,
+     "otherAsian": false,
+     "otherPacificIslander": false,
+     "prefNoSay": true,
+     "samoan": false,
+     "vietnamese": false,
+     "white": true
+    },
+    "sex": {
+     "female": true,
+     "male": true,
+     "prefNoSay": false
+    },
+    "status": "success"
+   },
+   "disclosuresVerification": {
+    "initialSentAt": "2025-04-28",
+    "initialsFirstSentAt": "2025-04-28T12:54:58.065Z",
+    "link": "https://stage.stg.solex.com/welcome/6e5cd77c-5aef-44d2-a538-43f7c1b80733",
+    "message": "We received your signed documents!",
+    "pushBackData": {
+     "LEestimatedCashToClose": "99464.00",
+     "LEoriginationChargesA": "0",
+     "LEprePaidInterest": "0",
+     "LEproductName": "NFTY HELOC 2nd Lien",
+     "LEservicesYouCannotShopForB": "0",
+     "LEtaxesAndOtherGovernmentFeesE": "536",
+     "LEtotalClosingCostsJ": "536",
+     "LEtotalLoanCostD": "0",
+     "LEtotalOtherCostsI": "536"
+    },
+    "status": "success"
+   },
+   "finalDisclosuresVerification": {
+    "amountFinanced": "175000.00",
+    "apr": "9.350000",
+    "feeSummaryTotalInterestPercent": "85.104",
+    "feeSummaryTotalOfAllPaymentsAmount": "277549.13",
+    "financeChargeAmount": "131484.13",
+    "fiveYearPrincipalReductionComparisonAmount": "4626",
+    "fiveYearTotalOfPaymentsComparisonAmount": "52890",
+    "helocFees": 5513.7,
+    "lastLambdaRuntime": "2025-04-28T12:59:03.596Z",
+    "link": "https://stage.stg.solex.com/welcome/d9c5615c-25b6-4db2-abda-9403e250a15a",
+    "message": "We received your signed documents!",
+    "sentAt": "2025-04-28T12:59:29.059Z",
+    "status": "success",
+    "successAt": 1745845171
+   },
+   "fundingVerification": {
+    "accountNumber": "1111222233335555",
+    "accountSubtype": "checking",
+    "accountType": "depository",
+    "amortizationSchedule": [
+    ],
+    "availableDraw": 0,
+    "balance": {
+     "accounts": [
+      {
+       "account_id": "NBqLbpn3ypfxzjJl85VmfM3lvxpP8ZTy8443N",
+       "balances": {
+        "available": 500,
+        "current": 500,
+        "iso_currency_code": "USD",
+        "limit": null,
+        "unofficial_currency_code": null
+       },
+       "holder_category": "personal",
+       "mask": "5555",
+       "name": "Checking",
+       "official_name": "Plaid checking",
+       "subtype": "checking",
+       "type": "depository"
+      }
+     ],
+     "item": {
+      "auth_method": "INSTANT_AUTH",
+      "available_products": [
+       "assets",
+       "balance",
+       "cra_base_report",
+       "cra_income_insights",
+       "identity",
+       "identity_match",
+       "income_verification",
+       "liabilities",
+       "signal",
+       "transactions",
+       "transactions_refresh"
+      ],
+      "billed_products": [
+       "auth"
+      ],
+      "consent_expiration_time": null,
+      "error": null,
+      "institution_id": "ins_127989",
+      "institution_name": "Bank of America",
+      "item_id": "PxrLXgEdAgFa3km9L5X8SB3R8qwVgdc7Q4VWW",
+      "products": [
+       "auth"
+      ],
+      "update_type": "background",
+      "webhook": "https://api.app.nftydoor.com/dev/plaid-web-hook"
+     },
+     "request_id": "sFqrMgcpKpDfV09"
+    },
+    "bankName": "Bank of America",
+    "counterpartyId": "6425a0b4-16e4-49f7-a036-82423e5963b4",
+    "createdAt": "2025-04-28T13:01:08.624Z",
+    "disbursementTransaction": {
+     "id": "01967c7f-a925-77f7-88c0-df00cf14c8de",
+     "created_at": "2025-04-28T13:04:23Z",
+     "description": "Loan disbursement for 100545844699416",
+     "effective_at": "2025-04-28T00:00:00.000000Z",
+     "effective_date": "2025-04-28",
+     "external_id": null,
+     "ledgerable_id": null,
+     "ledgerable_type": null,
+     "ledger_entries": [
+      {
+       "id": "01967c7f-a936-779a-ad41-6ae90f5ed440",
+       "amount": 16948630,
+       "created_at": "2025-04-28T13:04:23Z",
+       "direction": "credit",
+       "discarded_at": null,
+       "ledger_account_currency": "USD",
+       "ledger_account_currency_exponent": 2,
+       "ledger_account_id": "a868bbc8-0859-4944-aeca-29846e4b0691",
+       "ledger_account_lock_version": null,
+       "ledger_transaction_id": "01967c7f-a925-77f7-88c0-df00cf14c8de",
+       "live_mode": false,
+       "metadata": {},
+       "object": "ledger_entry",
+       "resulting_ledger_account_balances": null,
+       "status": "posted",
+       "updated_at": "2025-04-28T13:04:23Z"
+      },
+      {
+       "id": "01967c7f-a939-705a-8396-faf0f1d9dd57",
+       "amount": 17500000,
+       "created_at": "2025-04-28T13:04:23Z",
+       "direction": "debit",
+       "discarded_at": null,
+       "ledger_account_currency": "USD",
+       "ledger_account_currency_exponent": 2,
+       "ledger_account_id": "01967c7f-a155-7406-b594-e57f4f97d3e2",
+       "ledger_account_lock_version": null,
+       "ledger_transaction_id": "01967c7f-a925-77f7-88c0-df00cf14c8de",
+       "live_mode": false,
+       "metadata": {},
+       "object": "ledger_entry",
+       "resulting_ledger_account_balances": null,
+       "status": "posted",
+       "updated_at": "2025-04-28T13:04:23Z"
+      },
+      {
+       "id": "01967c7f-a93a-7c0f-a311-76fd21ceca9b",
+       "amount": 129500,
+       "created_at": "2025-04-28T13:04:23Z",
+       "direction": "credit",
+       "discarded_at": null,
+       "ledger_account_currency": "USD",
+       "ledger_account_currency_exponent": 2,
+       "ledger_account_id": "01967c7f-a259-7ed6-9af1-ef57d119d577",
+       "ledger_account_lock_version": null,
+       "ledger_transaction_id": "01967c7f-a925-77f7-88c0-df00cf14c8de",
+       "live_mode": false,
+       "metadata": {},
+       "object": "ledger_entry",
+       "resulting_ledger_account_balances": null,
+       "status": "posted",
+       "updated_at": "2025-04-28T13:04:23Z"
+      },
+      {
+       "id": "01967c7f-a93a-712f-b6a4-ac079c02098e",
+       "amount": 71870,
+       "created_at": "2025-04-28T13:04:23Z",
+       "direction": "credit",
+       "discarded_at": null,
+       "ledger_account_currency": "USD",
+       "ledger_account_currency_exponent": 2,
+       "ledger_account_id": "01967c7f-a48a-7c71-8d9f-c076d6dcb42c",
+       "ledger_account_lock_version": null,
+       "ledger_transaction_id": "01967c7f-a925-77f7-88c0-df00cf14c8de",
+       "live_mode": false,
+       "metadata": {},
+       "object": "ledger_entry",
+       "resulting_ledger_account_balances": null,
+       "status": "posted",
+       "updated_at": "2025-04-28T13:04:23Z"
+      },
+      {
+       "id": "01967c7f-a93a-7a6f-a2b3-441e6bdcf9bd",
+       "amount": 350000,
+       "created_at": "2025-04-28T13:04:23Z",
+       "direction": "credit",
+       "discarded_at": null,
+       "ledger_account_currency": "USD",
+       "ledger_account_currency_exponent": 2,
+       "ledger_account_id": "01967c7f-a6a5-7707-a546-ee671777ac2b",
+       "ledger_account_lock_version": null,
+       "ledger_transaction_id": "01967c7f-a925-77f7-88c0-df00cf14c8de",
+       "live_mode": false,
+       "metadata": {},
+       "object": "ledger_entry",
+       "resulting_ledger_account_balances": null,
+       "status": "posted",
+       "updated_at": "2025-04-28T13:04:23Z"
+      }
+     ],
+     "ledger_id": "41952ddf-16b5-428d-9791-9517650324d8",
+     "live_mode": false,
+     "metadata": {},
+     "object": "ledger_transaction",
+     "partially_posts_ledger_transaction_id": null,
+     "posted_at": "2025-04-28T13:04:23.328Z",
+     "reversed_by_ledger_transaction_id": null,
+     "reverses_ledger_transaction_id": null,
+     "status": "posted",
+     "updated_at": "2025-04-28T13:04:23Z"
+    },
+    "disbursementTransactions": {
+     "assets": 169486.3,
+     "broker": 3500,
+     "nftydoorIncome": 1295,
+     "passthroughCost": 718.7,
+     "principal": 175000
+    },
+    "firstpayment_date": "2025-06-01",
+    "fundedAt": "2025-04-28T09:05:50.658-04:00",
+    "fundsSentAt": "2025-04-28T13:04:23.456Z",
+    "loanBorrowerFundsAccountId": "01967c7f-a593-7b27-9b65-767e966f761f",
+    "loanBrokerAccountId": "01967c7f-a6a5-7707-a546-ee671777ac2b",
+    "loanInvestorsDepositsAccountId": "01967c7f-a363-757f-96a0-a80a64bdf66b",
+    "loanPassthroughCostAccountId": "01967c7f-a48a-7c71-8d9f-c076d6dcb42c",
+    "loanPrincipalAccountId": "01967c7f-a155-7406-b594-e57f4f97d3e2",
+    "mask": "5555",
+    "MERS": {
+     "errorMessage": "[Warning] MIN already exists for this borrower, property and lien type. A different MIN is already associated with this property address",
+     "registeredAt": "2025-04-28T06:05:52Z",
+     "registrationStatus": "warning",
+     "transactionIdentifier": "dce6b87a-f125-461a-a0a2-ab3704d8743c"
+    },
+    "message": "Your loan was successfully funded!",
+    "messageToAdmin": "Funds sent to 5555.",
+    "nftydoorLoanIncomeAccountId": "01967c7f-a259-7ed6-9af1-ef57d119d577",
+    "pendingVerification": false,
+    "plaidAccessToken": "access-sandbox-73cfd849-b0f3-481b-b3a0-d6058b57398c",
+    "plaidBankId": "NBqLbpn3ypfxzjJl85VmfM3lvxpP8ZTy8443N",
+    "processorToken": "processor-sandbox-b43c2a66-4ddf-4791-b059-5295c65d63c4",
+    "receivingAccountId": "849d923a-f8d9-4051-9af2-e5bd7d6784a3",
+    "routingNumber": "267084131",
+    "startingTransaction": {
+     "id": "01967c7f-a7b9-7880-bda1-df5ed2c3106f",
+     "created_at": "2025-04-28T13:04:22Z",
+     "description": "Starting cash from investors for 100545844699416",
+     "effective_at": "2025-04-28T00:00:00.000000Z",
+     "effective_date": "2025-04-28",
+     "external_id": null,
+     "ledgerable_id": null,
+     "ledgerable_type": null,
+     "ledger_entries": [
+      {
+       "id": "01967c7f-a7de-7b29-9628-18cb443b75f9",
+       "amount": 17500000,
+       "created_at": "2025-04-28T13:04:22Z",
+       "direction": "debit",
+       "discarded_at": null,
+       "ledger_account_currency": "USD",
+       "ledger_account_currency_exponent": 2,
+       "ledger_account_id": "a868bbc8-0859-4944-aeca-29846e4b0691",
+       "ledger_account_lock_version": null,
+       "ledger_transaction_id": "01967c7f-a7b9-7880-bda1-df5ed2c3106f",
+       "live_mode": false,
+       "metadata": {},
+       "object": "ledger_entry",
+       "resulting_ledger_account_balances": null,
+       "status": "posted",
+       "updated_at": "2025-04-28T13:04:22Z"
+      },
+      {
+       "id": "01967c7f-a7e1-7a75-abc3-d14d0eab45d6",
+       "amount": 17500000,
+       "created_at": "2025-04-28T13:04:22Z",
+       "direction": "credit",
+       "discarded_at": null,
+       "ledger_account_currency": "USD",
+       "ledger_account_currency_exponent": 2,
+       "ledger_account_id": "01967c7f-a363-757f-96a0-a80a64bdf66b",
+       "ledger_account_lock_version": null,
+       "ledger_transaction_id": "01967c7f-a7b9-7880-bda1-df5ed2c3106f",
+       "live_mode": false,
+       "metadata": {},
+       "object": "ledger_entry",
+       "resulting_ledger_account_balances": null,
+       "status": "posted",
+       "updated_at": "2025-04-28T13:04:22Z"
+      }
+     ],
+     "ledger_id": "41952ddf-16b5-428d-9791-9517650324d8",
+     "live_mode": false,
+     "metadata": {},
+     "object": "ledger_transaction",
+     "partially_posts_ledger_transaction_id": null,
+     "posted_at": "2025-04-28T13:04:22.966Z",
+     "reversed_by_ledger_transaction_id": null,
+     "reverses_ledger_transaction_id": null,
+     "status": "posted",
+     "updated_at": "2025-04-28T13:04:22Z"
+    },
+    "status": "success",
+    "supportedPaymentTypes": [
+     "ACH",
+     "fednow",
+     "RTP",
+     "Wire"
+    ]
+   },
+   "hardpullVerification": {
+    "creditProfile": {
+     "addressInformation": [
+      {
+       "city": "PENSACOLA",
+       "dwellingType": "S",
+       "firstReportedDate": "05072016",
+       "lastReportingSubscriberCode": "1310331",
+       "lastUpdatedDate": "01222025",
+       "source": "1",
+       "state": "FL",
+       "streetName": "BALSA",
+       "streetPrefix": "1102",
+       "streetSuffix": "CT",
+       "timesReported": "00",
+       "zipCode": "325077921"
+      },
+      {
+       "city": "PENSACOLA",
+       "dwellingType": "A",
+       "firstReportedDate": "06092015",
+       "lastUpdatedDate": "10112019",
+       "source": "1",
+       "state": "FL",
+       "streetName": "FAIRFIELD",
+       "streetPrefix": "7225 W",
+       "streetSuffix": "DR",
+       "timesReported": "00",
+       "unitId": "C7",
+       "unitType": "APT",
+       "zipCode": "325063488"
+      },
+      {
+       "city": "PENSACOLA",
+       "dwellingType": "M",
+       "firstReportedDate": "02162012",
+       "lastUpdatedDate": "12102013",
+       "source": "1",
+       "state": "FL",
+       "streetName": "HIGHWAY 98",
+       "streetPrefix": "7591 W",
+       "timesReported": "00",
+       "zipCode": "325065964"
+      }
+     ],
+     "consumerIdentity": {
+      "dob": {
+       "day": "29",
+       "month": "01",
+       "year": "1944"
+      },
+      "name": [
+       {
+        "firstName": "RONALD",
+        "middleName": "W",
+        "surname": "FRAME"
+       }
+      ]
+     },
+     "directCheck": [
+      {
+       "subscriberAddress": "PO BOX 297871",
+       "subscriberCity": "FORT LAUDERDALE",
+       "subscriberCode": "1229200",
+       "subscriberName": "AMEX",
+       "subscriberPhone": "8008742717",
+       "subscriberState": "FL",
+       "subscriberZipCode": "33329"
+      },
+      {
+       "subscriberCode": "1123007",
+       "subscriberName": "BANK"
+      },
+      {
+       "subscriberCode": "1290016",
+       "subscriberName": "BANK CR CARD"
+      },
+      {
+       "subscriberAddress": "PO BOX 15369",
+       "subscriberCity": "WILMINGTON",
+       "subscriberCode": "1290355",
+       "subscriberName": "BANK CREDIT CARD",
+       "subscriberPhone": "8009452000",
+       "subscriberState": "DE",
+       "subscriberZipCode": "19850"
+      },
+      {
+       "subscriberAddress": "PO BOX 982238",
+       "subscriberCity": "EL PASO",
+       "subscriberCode": "3205140",
+       "subscriberName": "BANK CREDIT CARD",
+       "subscriberPhone": "8004212110",
+       "subscriberState": "TX",
+       "subscriberZipCode": "79998"
+      },
+      {
+       "subscriberAddress": "PO BOX 982238",
+       "subscriberCity": "EL PASO",
+       "subscriberCode": "1213727",
+       "subscriberName": "BANK OF AMERICA",
+       "subscriberPhone": "8004212110",
+       "subscriberState": "TX",
+       "subscriberZipCode": "79998"
+      },
+      {
+       "subscriberAddress": "4909 SAVARESE CIR",
+       "subscriberCity": "TAMPA",
+       "subscriberCode": "1880275",
+       "subscriberName": "BK OF AMER",
+       "subscriberPhone": "8006696607",
+       "subscriberState": "FL",
+       "subscriberZipCode": "33634"
+      },
+      {
+       "subscriberAddress": "PO BOX 31293",
+       "subscriberCity": "SALT LAKE CITY",
+       "subscriberCode": "1270246",
+       "subscriberName": "CAPITAL ONE",
+       "subscriberPhone": "8009557070",
+       "subscriberState": "UT",
+       "subscriberZipCode": "84131"
+      },
+      {
+       "subscriberAddress": "833 BROADWAY",
+       "subscriberCity": "ALBANY",
+       "subscriberCode": "1811101",
+       "subscriberName": "CHARTER ONE",
+       "subscriberPhone": "5184266435",
+       "subscriberState": "NY",
+       "subscriberZipCode": "12207"
+      },
+      {
+       "subscriberAddress": "388 GREENWICH ST",
+       "subscriberCity": "NEW YORK",
+       "subscriberCode": "1112794",
+       "subscriberName": "CITIBANK NA",
+       "subscriberPhone": "7182486194",
+       "subscriberState": "NY",
+       "subscriberZipCode": "10013"
+      },
+      {
+       "subscriberAddress": "PO BOX 6241",
+       "subscriberCity": "SIOUX FALLS",
+       "subscriberCode": "1240000",
+       "subscriberName": "CITICARDS CBNA",
+       "subscriberPhone": "8009505114",
+       "subscriberState": "SD",
+       "subscriberZipCode": "57117"
+      },
+      {
+       "subscriberAddress": "3353 MICHELSON DR FL 2",
+       "subscriberCity": "IRVINE",
+       "subscriberCode": "3996477",
+       "subscriberName": "DEUTSCHE FINANCIAL",
+       "subscriberPhone": "7144818800",
+       "subscriberState": "CA",
+       "subscriberZipCode": "92612"
+      },
+      {
+       "subscriberAddress": "PO BOX 30939",
+       "subscriberCity": "SALT LAKE CITY",
+       "subscriberCode": "3276502",
+       "subscriberName": "DISCOVER BANK",
+       "subscriberPhone": "8003472683",
+       "subscriberState": "UT",
+       "subscriberZipCode": "84130"
+      },
+      {
+       "subscriberAddress": "800 BROOKSEDGE BLVD",
+       "subscriberCity": "WESTERVILLE",
+       "subscriberCode": "1233910",
+       "subscriberName": "JPMCB CARD",
+       "subscriberPhone": "8009559900",
+       "subscriberState": "OH",
+       "subscriberZipCode": "43081"
+      },
+      {
+       "subscriberAddress": "PO BOX 15369",
+       "subscriberCity": "WILMINGTON",
+       "subscriberCode": "1310331",
+       "subscriberName": "JPMCB CARD",
+       "subscriberPhone": "8009452000",
+       "subscriberState": "DE",
+       "subscriberZipCode": "19850"
+      },
+      {
+       "subscriberAddress": "PO BOX 7678",
+       "subscriberCity": "BUFFALO",
+       "subscriberCode": "1120000",
+       "subscriberName": "M&T BANK",
+       "subscriberPhone": "7166261900",
+       "subscriberState": "NY",
+       "subscriberZipCode": "14240"
+      },
+      {
+       "subscriberAddress": "1066 MORTON BLVD",
+       "subscriberCity": "KINGSTON",
+       "subscriberCode": "1770032",
+       "subscriberName": "MID-HUDSON VALLEY FCU",
+       "subscriberPhone": "BYMAILONLY",
+       "subscriberState": "NY",
+       "subscriberZipCode": "12401"
+      },
+      {
+       "subscriberAddress": "9111 DUKE BLVD",
+       "subscriberCity": "MASON",
+       "subscriberCode": "2305980",
+       "subscriberName": "MISC. DEPT. & VARIETY",
+       "subscriberPhone": "8006404702",
+       "subscriberState": "OH",
+       "subscriberZipCode": "45040"
+      },
+      {
+       "subscriberAddress": "3400 MERRIAM LN",
+       "subscriberCity": "KANSAS CITY",
+       "subscriberCode": "2225419",
+       "subscriberName": "NOWCOM/AUTOLINK LLC",
+       "subscriberPhone": "9132309737",
+       "subscriberState": "KS",
+       "subscriberZipCode": "66106"
+      },
+      {
+       "subscriberAddress": "12811 66TH ST",
+       "subscriberCity": "LARGO",
+       "subscriberCode": "1290138",
+       "subscriberName": "NOWCOM/POZITIV AUTO SA",
+       "subscriberPhone": "7276233776",
+       "subscriberState": "FL",
+       "subscriberZipCode": "33773"
+      },
+      {
+       "subscriberAddress": "PO BOX 965005",
+       "subscriberCity": "ORLANDO",
+       "subscriberCode": "1335510",
+       "subscriberName": "SYNCB/EXXON MOBIL",
+       "subscriberPhone": "8002259547",
+       "subscriberState": "FL",
+       "subscriberZipCode": "32896"
+      },
+      {
+       "subscriberAddress": "PO BOX 9223",
+       "subscriberCity": "FARMINGTON HILLS",
+       "subscriberCode": "1630000",
+       "subscriberName": "TD AUTO FINANCE",
+       "subscriberPhone": "8009559096",
+       "subscriberState": "MI",
+       "subscriberZipCode": "48333"
+      },
+      {
+       "subscriberAddress": "500 MAMARONECK AVE",
+       "subscriberCity": "HARRISON",
+       "subscriberCode": "1111340",
+       "subscriberName": "THE BANK OF NEW YORK",
+       "subscriberPhone": "BYMAILONLY",
+       "subscriberState": "NY",
+       "subscriberZipCode": "10528"
+      },
+      {
+       "subscriberAddress": "280 WALL ST",
+       "subscriberCity": "KINGSTON",
+       "subscriberCode": "1870202",
+       "subscriberName": "ULSTER SAVINGS BANK",
+       "subscriberPhone": "8453386060",
+       "subscriberState": "NY",
+       "subscriberZipCode": "12401"
+      }
+     ],
+     "employmentInformation": [
+      {
+       "addressFirstLine": "HOUSTON TX",
+       "firstReportedDate": "09272015",
+       "lastUpdatedDate": "09272015",
+       "name": "YKF INC",
+       "source": "2"
+      }
+     ],
+     "endTotals": [
+      {
+       "totalLength": "14031",
+       "totalSegments": "066"
+      }
+     ],
+     "headerRecord": [
+      {
+       "mKeywordLength": "00",
+       "preamble": "TVA1",
+       "reportDate": "042825",
+       "reportTime": "075409",
+       "versionNo": "07",
+       "y2kReportedDate": "04282025"
+      }
+     ],
+     "riskModel": [
+      {
+       "evaluation": "P",
+       "modelIndicator": "AF",
+       "score": "0836",
+       "scoreFactors": [
+        {
+         "code": "33",
+         "importance": "1"
+        },
+        {
+         "code": "14",
+         "importance": "2"
+        },
+        {
+         "code": "19",
+         "importance": "3"
+        }
+       ],
+       "scorePercentile": "95"
+      },
+      {
+       "evaluation": "P",
+       "modelIndicator": "F",
+       "score": "0810",
+       "scoreFactors": [
+        {
+         "code": "10",
+         "importance": "1"
+        },
+        {
+         "code": "01",
+         "importance": "2"
+        }
+       ],
+       "scorePercentile": "84"
+      }
+     ],
+     "ssn": [
+      {
+       "number": "666342009",
+       "ssnIndicators": "YYYYYYYYY"
+      }
+     ],
+     "summaries": [
+      {
+       "attributes": [
+        {
+         "id": "disputedAccountsExcluded",
+         "value": "000"
+        },
+        {
+         "id": "publicRecordsCount",
+         "value": "000"
+        },
+        {
+         "id": "installmentBalance",
+         "value": "00000000"
+        },
+        {
+         "id": "realEstateBalance",
+         "value": "00056326"
+        },
+        {
+         "id": "revolvingBalance",
+         "value": "00002896"
+        },
+        {
+         "id": "pastDueAmount",
+         "value": "00000000"
+        },
+        {
+         "id": "monthlyPayment",
+         "value": "00000018"
+        },
+        {
+         "id": "monthlyPaymentPartialFlag",
+         "value": "*"
+        },
+        {
+         "id": "realEstatePayment",
+         "value": "00000920"
+        },
+        {
+         "id": "realEstatePaymentPartialFlag"
+        },
+        {
+         "id": "revolvingAvailablePercent",
+         "value": "080"
+        },
+        {
+         "id": "revolvingAvailablePartialFlag"
+        },
+        {
+         "id": "totalInquiries",
+         "value": "000"
+        },
+        {
+         "id": "inquiriesDuringLast6Months",
+         "value": "000"
+        },
+        {
+         "id": "totalTradeItems",
+         "value": "031"
+        },
+        {
+         "id": "paidAccounts",
+         "value": "024"
+        },
+        {
+         "id": "satisfactoryAccounts",
+         "value": "031"
+        },
+        {
+         "id": "nowDelinquentDerog",
+         "value": "000"
+        },
+        {
+         "id": "wasDelinquentDerog",
+         "value": "000"
+        },
+        {
+         "id": "oldestTradeDate",
+         "value": "05011984"
+        },
+        {
+         "id": "delinquencies30Days",
+         "value": "00"
+        },
+        {
+         "id": "delinquencies60Days",
+         "value": "00"
+        },
+        {
+         "id": "delinquencies90to180Days",
+         "value": "00"
+        },
+        {
+         "id": "derogCounter",
+         "value": "00"
+        }
+       ],
+       "summaryType": "Profile Summary"
+      }
+     ],
+     "tradeline": [
+      {
+       "accountNumber": "61775566",
+       "accountType": "00",
+       "amount1": "00011020",
+       "amount1Qualifier": "O",
+       "balanceDate": "03282023",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "4",
+       "enhancedPaymentData": {
+        "enhancedAccountCondition": "05",
+        "enhancedAccountType": "00",
+        "enhancedPaymentHistory84": "BCC-CCCCCCCCCCC-CCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "060",
+        "enhancedTermsFrequency": "M",
+        "originalLoanAmount": "0000011020",
+        "paymentLevelDate": "03012023"
+       },
+       "evaluation": "P",
+       "monthsHistory": "44",
+       "openDate": "07232019",
+       "openOrClosed": "C",
+       "paymentHistory": "BCC-CCCCCCCCCCC-CCCCCCCCC",
+       "revolvingOrInstallment": "I",
+       "status": "05",
+       "statusDate": "03012023",
+       "subscriberCode": "1123007",
+       "subscriberName": "BANK",
+       "terms": "060"
+      },
+      {
+       "accountNumber": "3557",
+       "accountType": "18",
+       "amount1": "00004500",
+       "amount1Qualifier": "L",
+       "amount2": "00002748",
+       "amount2Qualifier": "H",
+       "balanceDate": "12182019",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "creditLimitAmount": "0000004500",
+        "enhancedAccountCondition": "05",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "BCCCCCCCCCCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedSpecialComment": "40",
+        "enhancedTerms": "REV",
+        "highBalanceAmount": "0000002748",
+        "paymentLevelDate": "12012019"
+       },
+       "evaluation": "N",
+       "kob": "BC",
+       "monthsHistory": "20",
+       "openDate": "05032018",
+       "openOrClosed": "C",
+       "paymentHistory": "BCCCCCCCCCCCCCCCCCCC",
+       "revolvingOrInstallment": "R",
+       "specialComment": "31",
+       "status": "05",
+       "statusDate": "12012019",
+       "subscriberCode": "1213727",
+       "subscriberName": "BANK OF AMERICA",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "6801400273",
+       "accountType": "15",
+       "amount1": "00001000",
+       "amount1Qualifier": "L",
+       "amount2": "00000134",
+       "amount2Qualifier": "H",
+       "balanceAmount": "00000000",
+       "balanceDate": "06282022",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "2",
+       "enhancedPaymentData": {
+        "complianceCondition": "XA",
+        "creditLimitAmount": "0000001000",
+        "enhancedAccountCondition": "A3",
+        "enhancedAccountType": "15",
+        "enhancedPaymentHistory84": "B00000000000000000-00000000000000000000000C00000000000000000000000000000",
+        "enhancedPaymentStatus": "11",
+        "enhancedSpecialComment": "19",
+        "enhancedTerms": "LOC",
+        "highBalanceAmount": "0000000134",
+        "paymentLevelDate": "03012019"
+       },
+       "evaluation": "N",
+       "kob": "BB",
+       "lastPaymentDate": "01012019",
+       "monthsHistory": "72",
+       "openDate": "07052016",
+       "openOrClosed": "C",
+       "paymentHistory": "B00000000000000000-000000",
+       "revolvingOrInstallment": "R",
+       "specialComment": "19",
+       "status": "11",
+       "statusDate": "03012019",
+       "subscriberCode": "1111340",
+       "subscriberName": "THE BANK OF NEW YORK",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "6859909626",
+       "accountType": "47",
+       "amount1": "00075000",
+       "amount1Qualifier": "L",
+       "amount2": "00034000",
+       "amount2Qualifier": "H",
+       "balanceAmount": "00000000",
+       "balanceDate": "08282018",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "2",
+       "enhancedPaymentData": {
+        "complianceCondition": "XA",
+        "creditLimitAmount": "0000075000",
+        "enhancedAccountCondition": "A3",
+        "enhancedAccountType": "47",
+        "enhancedPaymentHistory84": "BCCCCCCCCCCCCCCCCCCCCCC0",
+        "enhancedPaymentStatus": "11",
+        "enhancedSpecialComment": "19",
+        "enhancedTerms": "LOC",
+        "highBalanceAmount": "0000034000",
+        "paymentLevelDate": "08012018"
+       },
+       "evaluation": "N",
+       "kob": "BB",
+       "lastPaymentDate": "08012018",
+       "monthsHistory": "24",
+       "openDate": "09032016",
+       "openOrClosed": "C",
+       "paymentHistory": "BCCCCCCCCCCCCCCCCCCCCCC0",
+       "revolvingOrInstallment": "R",
+       "specialComment": "19",
+       "status": "11",
+       "statusDate": "08012018",
+       "subscriberCode": "1111340",
+       "subscriberName": "THE BANK OF NEW YORK",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "542418042828",
+       "accountType": "18",
+       "amount1": "00019200",
+       "amount1Qualifier": "L",
+       "balanceDate": "02162025",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "complianceCondition": "XA",
+        "creditLimitAmount": "0000019200",
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "B0CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC---CCCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedSpecialComment": "19",
+        "enhancedTerms": "REV",
+        "enhancedTermsFrequency": "M",
+        "paymentLevelDate": "02012025"
+       },
+       "evaluation": "N",
+       "kob": "BC",
+       "lastPaymentDate": "11282024",
+       "monthsHistory": "64",
+       "openDate": "05032018",
+       "openOrClosed": "C",
+       "paymentHistory": "B0CCCCCCCCCCCCCCCCCCCCCCC",
+       "revolvingOrInstallment": "R",
+       "specialComment": "19",
+       "status": "12",
+       "statusDate": "02012025",
+       "subscriberCode": "1240000",
+       "subscriberName": "CITICARDS CBNA",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "438864132860",
+       "accountType": "18",
+       "amount1": "00004880",
+       "amount1Qualifier": "H",
+       "balanceDate": "07012024",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "creditLimitAmount": "UNKNOWN",
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC00000000",
+        "enhancedPaymentStatus": "11",
+        "enhancedSpecialComment": "18",
+        "enhancedTerms": "REV",
+        "enhancedTermsFrequency": "M",
+        "highBalanceAmount": "0000004880",
+        "paymentLevelDate": "07012024"
+       },
+       "evaluation": "N",
+       "kob": "BC",
+       "lastPaymentDate": "05172017",
+       "monthsHistory": "99",
+       "openDate": "03242014",
+       "openOrClosed": "C",
+       "paymentHistory": "BCCCCCCCCCCCCCCCCCCCCCCCC",
+       "revolvingOrInstallment": "R",
+       "specialComment": "18",
+       "status": "12",
+       "statusDate": "07012024",
+       "subscriberCode": "1270246",
+       "subscriberName": "CAPITAL ONE",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "4417124227137210",
+       "accountType": "18",
+       "amount1": "00022200",
+       "amount1Qualifier": "L",
+       "amount2": "00007725",
+       "amount2Qualifier": "H",
+       "balanceDate": "11212023",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "complianceCondition": "XA",
+        "creditLimitAmount": "0000022200",
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "B000CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC00-0",
+        "enhancedPaymentStatus": "11",
+        "enhancedSpecialComment": "19",
+        "enhancedTerms": "REV",
+        "enhancedTermsFrequency": "M",
+        "highBalanceAmount": "0000007725",
+        "paymentLevelDate": "11012023"
+       },
+       "evaluation": "N",
+       "kob": "BC",
+       "monthsHistory": "63",
+       "openDate": "09192018",
+       "openOrClosed": "C",
+       "paymentHistory": "B000CCCCCCCCCCCCCCCCCCCCC",
+       "revolvingOrInstallment": "R",
+       "specialComment": "19",
+       "status": "12",
+       "statusDate": "11012023",
+       "subscriberCode": "1310331",
+       "subscriberName": "JPMCB CARD",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "025758999012395371",
+       "accountType": "18",
+       "amount1": "00001494",
+       "amount1Qualifier": "H",
+       "balanceDate": "07032023",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "complianceCondition": "XA",
+        "creditLimitAmount": "UNKNOWN",
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "B",
+        "enhancedPaymentStatus": "11",
+        "enhancedSpecialComment": "19",
+        "enhancedTerms": "REV",
+        "highBalanceAmount": "0000001494",
+        "paymentLevelDate": "07012023"
+       },
+       "evaluation": "N",
+       "kob": "BC",
+       "monthsHistory": "01",
+       "openDate": "01112019",
+       "openOrClosed": "C",
+       "paymentHistory": "B",
+       "revolvingOrInstallment": "R",
+       "specialComment": "19",
+       "status": "12",
+       "statusDate": "07012023",
+       "subscriberCode": "1229200",
+       "subscriberName": "AMEX",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "5184450041",
+       "accountType": "18",
+       "amount1": "00005000",
+       "amount1Qualifier": "L",
+       "amount2": "00003976",
+       "amount2Qualifier": "H",
+       "balanceDate": "03152023",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "complianceCondition": "XA",
+        "creditLimitAmount": "0000005000",
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "B00000000000000000000000000CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC00",
+        "enhancedPaymentStatus": "11",
+        "enhancedSpecialComment": "19",
+        "enhancedTerms": "REV",
+        "enhancedTermsFrequency": "M",
+        "highBalanceAmount": "0000003976",
+        "paymentLevelDate": "03012023"
+       },
+       "evaluation": "N",
+       "kob": "PY",
+       "monthsHistory": "79",
+       "openDate": "09162016",
+       "openOrClosed": "C",
+       "paymentHistory": "B000000000000000000000000",
+       "revolvingOrInstallment": "R",
+       "specialComment": "19",
+       "status": "12",
+       "statusDate": "03012023",
+       "subscriberCode": "1290138",
+       "subscriberName": "NOWCOM/POZITIV AUTO SA",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "739014828",
+       "accountType": "47",
+       "amount1": "00065000",
+       "amount1Qualifier": "L",
+       "amount2": "00065000",
+       "amount2Qualifier": "H",
+       "balanceDate": "04282022",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "2",
+       "enhancedPaymentData": {
+        "creditLimitAmount": "0000065000",
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "89",
+        "enhancedPaymentHistory84": "BCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "LOC",
+        "highBalanceAmount": "0000065000",
+        "paymentLevelDate": "04012022"
+       },
+       "evaluation": "P",
+       "kob": "BS",
+       "monthsHistory": "03",
+       "openDate": "02092022",
+       "openOrClosed": "C",
+       "paymentHistory": "BCC",
+       "revolvingOrInstallment": "R",
+       "status": "12",
+       "statusDate": "04012022",
+       "subscriberCode": "1870202",
+       "subscriberName": "ULSTER SAVINGS BANK",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "160616286",
+       "accountType": "26",
+       "amount1": "00120800",
+       "amount1Qualifier": "O",
+       "balanceDate": "04282022",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "2",
+       "enhancedPaymentData": {
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "26",
+        "enhancedPaymentHistory84": "BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC-CCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "360",
+        "originalLoanAmount": "0000120800",
+        "paymentLevelDate": "04012022",
+        "secondaryAgencyCode": "02",
+        "secondaryAgencyId": "717521765"
+       },
+       "evaluation": "P",
+       "kob": "BS",
+       "monthsHistory": "63",
+       "openDate": "01212017",
+       "openOrClosed": "C",
+       "paymentHistory": "BCCCCCCCCCCCCCCCCCCCCCCCC",
+       "revolvingOrInstallment": "I",
+       "status": "12",
+       "statusDate": "04012022",
+       "subscriberCode": "1870202",
+       "subscriberName": "ULSTER SAVINGS BANK",
+       "terms": "360"
+      },
+      {
+       "accountNumber": "025758999012347193",
+       "accountType": "18",
+       "amount1": "00003861",
+       "amount1Qualifier": "H",
+       "balanceDate": "02022021",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "complianceCondition": "XA",
+        "creditLimitAmount": "UNKNOWN",
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "B",
+        "enhancedPaymentStatus": "11",
+        "enhancedSpecialComment": "19",
+        "enhancedTerms": "REV",
+        "highBalanceAmount": "0000003861",
+        "paymentLevelDate": "02012021"
+       },
+       "evaluation": "N",
+       "kob": "BC",
+       "monthsHistory": "01",
+       "openDate": "08011986",
+       "openOrClosed": "C",
+       "paymentHistory": "B",
+       "revolvingOrInstallment": "R",
+       "specialComment": "19",
+       "status": "12",
+       "statusDate": "02012021",
+       "subscriberCode": "1229200",
+       "subscriberName": "AMEX",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "4226610150",
+       "accountType": "18",
+       "amount1": "00010000",
+       "amount1Qualifier": "L",
+       "amount2": "00002313",
+       "amount2Qualifier": "H",
+       "balanceDate": "03082019",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "complianceCondition": "XA",
+        "creditLimitAmount": "0000010000",
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "B000000000000000000---------BCCCCCCCCCCCCCCCCCCCCC---CCCCCCCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedSpecialComment": "19",
+        "enhancedTerms": "REV",
+        "highBalanceAmount": "0000002313",
+        "paymentLevelDate": "03012019"
+       },
+       "evaluation": "N",
+       "monthsHistory": "99",
+       "openDate": "05011984",
+       "openOrClosed": "C",
+       "paymentHistory": "B000000000000000000------",
+       "revolvingOrInstallment": "R",
+       "specialComment": "19",
+       "status": "12",
+       "statusDate": "03012019",
+       "subscriberCode": "1290016",
+       "subscriberName": "BANK CR CARD",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "5422432049089141",
+       "accountType": "18",
+       "amount1": "00013000",
+       "amount1Qualifier": "L",
+       "amount2": "00008530",
+       "amount2Qualifier": "H",
+       "balanceDate": "03082019",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "complianceCondition": "XA",
+        "creditLimitAmount": "0000013000",
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "B000000000000000000-------------BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedSpecialComment": "19",
+        "enhancedTerms": "REV",
+        "highBalanceAmount": "0000008530",
+        "paymentLevelDate": "03012019"
+       },
+       "evaluation": "N",
+       "kob": "BC",
+       "monthsHistory": "99",
+       "openDate": "05262009",
+       "openOrClosed": "C",
+       "paymentHistory": "B000000000000000000------",
+       "revolvingOrInstallment": "R",
+       "specialComment": "19",
+       "status": "12",
+       "statusDate": "03012019",
+       "subscriberCode": "1290355",
+       "subscriberName": "BANK CREDIT CARD",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "13900002002997756",
+       "accountType": "00",
+       "amount1": "00013885",
+       "amount1Qualifier": "O",
+       "balanceDate": "01282019",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "2",
+       "enhancedPaymentData": {
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "00",
+        "enhancedPaymentHistory84": "BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "037",
+        "originalLoanAmount": "0000013885",
+        "paymentLevelDate": "01012019"
+       },
+       "evaluation": "P",
+       "kob": "FC",
+       "monthsHistory": "36",
+       "openDate": "02042016",
+       "openOrClosed": "C",
+       "paymentHistory": "BCCCCCCCCCCCCCCCCCCCCCCCC",
+       "revolvingOrInstallment": "I",
+       "status": "12",
+       "statusDate": "01012019",
+       "subscriberCode": "1770032",
+       "subscriberName": "MID-HUDSON VALLEY FCU",
+       "terms": "037"
+      },
+      {
+       "accountNumber": "436613303132",
+       "accountType": "18",
+       "amount1": "00006000",
+       "amount1Qualifier": "L",
+       "amount2": "00006000",
+       "amount2Qualifier": "H",
+       "balanceDate": "12172018",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "complianceCondition": "XA",
+        "creditLimitAmount": "0000006000",
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "BCCCCCCCCCCCCCCCCCCCCCCCCCC000000000CCCCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedSpecialComment": "19",
+        "enhancedTerms": "REV",
+        "highBalanceAmount": "0000006000",
+        "paymentLevelDate": "12012018"
+       },
+       "evaluation": "N",
+       "kob": "BC",
+       "monthsHistory": "51",
+       "openDate": "10012014",
+       "openOrClosed": "C",
+       "paymentHistory": "BCCCCCCCCCCCCCCCCCCCCCCCC",
+       "revolvingOrInstallment": "R",
+       "specialComment": "19",
+       "status": "12",
+       "statusDate": "12012018",
+       "subscriberCode": "1233910",
+       "subscriberName": "JPMCB CARD",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "10000132368905556",
+       "accountType": "00",
+       "amount1": "00017976",
+       "amount1Qualifier": "O",
+       "balanceDate": "07282018",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "00",
+        "enhancedPaymentHistory84": "BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC-CCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "048",
+        "originalLoanAmount": "0000017976",
+        "paymentLevelDate": "07012018"
+       },
+       "evaluation": "P",
+       "kob": "BB",
+       "monthsHistory": "47",
+       "openDate": "09062014",
+       "openOrClosed": "C",
+       "paymentHistory": "BCCCCCCCCCCCCCCCCCCCCCCCC",
+       "revolvingOrInstallment": "I",
+       "status": "12",
+       "statusDate": "07012018",
+       "subscriberCode": "1120000",
+       "subscriberName": "M&T BANK",
+       "terms": "048"
+      },
+      {
+       "accountNumber": "1731078640030",
+       "accountType": "26",
+       "amount1": "00030050",
+       "amount1Qualifier": "O",
+       "balanceDate": "05282018",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "2",
+       "enhancedPaymentData": {
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "26",
+        "enhancedPaymentHistory84": "B-CC-CCCCCCC-C-CCCC-CCCCCCCCCCCC--CCCCC-CCC-CCCCCCCCCCC--CCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "240",
+        "originalLoanAmount": "0000030050",
+        "paymentLevelDate": "05012018"
+       },
+       "evaluation": "P",
+       "kob": "BM",
+       "monthsHistory": "99",
+       "openDate": "07191997",
+       "openOrClosed": "C",
+       "paymentHistory": "B-CC-CCCCCCC-C-CCCC-CCCCC",
+       "revolvingOrInstallment": "I",
+       "status": "12",
+       "statusDate": "05012018",
+       "subscriberCode": "1880275",
+       "subscriberName": "BK OF AMER",
+       "terms": "240"
+      },
+      {
+       "accountNumber": "11029950",
+       "accountType": "26",
+       "amount1": "00056000",
+       "amount1Qualifier": "O",
+       "balanceDate": "11282017",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "4",
+       "enhancedPaymentData": {
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "26",
+        "enhancedPaymentHistory84": "BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "360",
+        "originalLoanAmount": "0000056000",
+        "paymentLevelDate": "11012017"
+       },
+       "evaluation": "P",
+       "kob": "FS",
+       "monthsHistory": "99",
+       "openDate": "10262004",
+       "openOrClosed": "C",
+       "paymentHistory": "BCCCCCCCCCCCCCCCCCCCCCCCC",
+       "revolvingOrInstallment": "I",
+       "status": "12",
+       "statusDate": "11012017",
+       "subscriberCode": "1811101",
+       "subscriberName": "CHARTER ONE",
+       "terms": "360"
+      },
+      {
+       "accountNumber": "432683513626",
+       "accountType": "18",
+       "amount1": "00007500",
+       "amount1Qualifier": "L",
+       "balanceDate": "08282017",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "2",
+       "enhancedPaymentData": {
+        "creditLimitAmount": "0000007500",
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "B00000000000",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "REV",
+        "paymentLevelDate": "08012017"
+       },
+       "evaluation": "P",
+       "kob": "BC",
+       "monthsHistory": "12",
+       "openDate": "12222014",
+       "openOrClosed": "C",
+       "paymentHistory": "B00000000000",
+       "revolvingOrInstallment": "R",
+       "status": "12",
+       "statusDate": "08012017",
+       "subscriberCode": "3205140",
+       "subscriberName": "BANK CREDIT CARD",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "390100052644",
+       "accountType": "02",
+       "amount1": "00032285",
+       "amount1Qualifier": "O",
+       "balanceDate": "11282016",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "2",
+       "enhancedPaymentData": {
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "02",
+        "enhancedPaymentHistory84": "BCCCCCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "084",
+        "originalLoanAmount": "0000032285",
+        "paymentLevelDate": "11012016"
+       },
+       "evaluation": "P",
+       "kob": "ZZ",
+       "monthsHistory": "15",
+       "openDate": "09222015",
+       "openOrClosed": "C",
+       "paymentHistory": "BCCCCCCCCCCCCCC",
+       "revolvingOrInstallment": "I",
+       "status": "12",
+       "statusDate": "11012016",
+       "subscriberCode": "3996477",
+       "subscriberName": "DEUTSCHE FINANCIAL",
+       "terms": "084"
+      },
+      {
+       "accountNumber": "53470000078053",
+       "accountType": "27",
+       "amount1": "00025000",
+       "amount1Qualifier": "O",
+       "balanceDate": "07282016",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "27",
+        "enhancedPaymentHistory84": "BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "120",
+        "originalLoanAmount": "0000025000",
+        "paymentLevelDate": "07012016"
+       },
+       "evaluation": "P",
+       "kob": "BC",
+       "monthsHistory": "99",
+       "openDate": "05102008",
+       "openOrClosed": "C",
+       "paymentHistory": "BCCCCCCCCCCCCCCCCCCCCCCCC",
+       "revolvingOrInstallment": "I",
+       "status": "12",
+       "statusDate": "07012016",
+       "subscriberCode": "1112794",
+       "subscriberName": "CITIBANK NA",
+       "terms": "120"
+      },
+      {
+       "accountNumber": "2122861608",
+       "accountType": "00",
+       "amount1": "00023080",
+       "amount1Qualifier": "O",
+       "balanceDate": "03282016",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "00",
+        "enhancedPaymentHistory84": "BCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "060",
+        "originalLoanAmount": "0000023080",
+        "paymentLevelDate": "03012016"
+       },
+       "evaluation": "P",
+       "kob": "FA",
+       "monthsHistory": "60",
+       "openDate": "04212011",
+       "openOrClosed": "C",
+       "paymentHistory": "BCCCCCCCCCCCCCCCCCCCCCCCC",
+       "revolvingOrInstallment": "I",
+       "status": "12",
+       "statusDate": "03012016",
+       "subscriberCode": "1630000",
+       "subscriberName": "TD AUTO FINANCE",
+       "terms": "060"
+      },
+      {
+       "accountNumber": "4417122808364946",
+       "accountType": "18",
+       "amount1": "UNKNOWN",
+       "balanceDate": "09282015",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "complianceCondition": "XA",
+        "enhancedAccountCondition": "A2",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "BCCCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedSpecialComment": "19",
+        "enhancedTerms": "REV",
+        "paymentLevelDate": "09012015"
+       },
+       "evaluation": "N",
+       "kob": "BC",
+       "monthsHistory": "13",
+       "openDate": "08022014",
+       "openOrClosed": "C",
+       "paymentHistory": "BCCCCCCCCCCCC",
+       "revolvingOrInstallment": "R",
+       "specialComment": "19",
+       "status": "12",
+       "statusDate": "09012015",
+       "subscriberCode": "1310331",
+       "subscriberName": "JPMCB CARD",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "7302831247095746",
+       "accountType": "07",
+       "amount1": "00001000",
+       "amount1Qualifier": "L",
+       "amount2": "00000288",
+       "amount2Qualifier": "H",
+       "balanceAmount": "00000008",
+       "balanceDate": "02092025",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "actualPaymentAmount": "00000044",
+        "creditLimitAmount": "0000001000",
+        "enhancedAccountCondition": "A1",
+        "enhancedAccountType": "07",
+        "enhancedPaymentHistory84": "CCCCCCCCCCCCCCCCCCC0CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "REV",
+        "enhancedTermsFrequency": "M",
+        "highBalanceAmount": "0000000288",
+        "paymentLevelDate": "02012025"
+       },
+       "evaluation": "P",
+       "kob": "OC",
+       "lastPaymentDate": "01252025",
+       "monthlyPaymentAmount": "00000008",
+       "monthlyPaymentType": "S",
+       "monthsHistory": "71",
+       "openDate": "01161985",
+       "openOrClosed": "O",
+       "paymentHistory": "CCCCCCCCCCCCCCCCCCC0CCCCC",
+       "revolvingOrInstallment": "R",
+       "status": "11",
+       "statusDate": "02012025",
+       "subscriberCode": "1335510",
+       "subscriberName": "SYNCB/EXXON MOBIL",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "601100230058",
+       "accountType": "18",
+       "amount1": "00009000",
+       "amount1Qualifier": "L",
+       "amount2": "00002948",
+       "amount2Qualifier": "H",
+       "balanceAmount": "00000016",
+       "balanceDate": "02022025",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "3",
+       "enhancedPaymentData": {
+        "creditLimitAmount": "0000009000",
+        "enhancedAccountCondition": "A1",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "CCCCCCCC00CC0000CCCCC00CCCCC00CCC00000000000000000000000----------------------------",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "REV",
+        "enhancedTermsFrequency": "M",
+        "highBalanceAmount": "0000002948",
+        "paymentLevelDate": "02012025"
+       },
+       "evaluation": "P",
+       "kob": "BC",
+       "lastPaymentDate": "01092025",
+       "monthlyPaymentAmount": "00000010",
+       "monthlyPaymentType": "S",
+       "monthsHistory": "99",
+       "openDate": "06072016",
+       "openOrClosed": "O",
+       "paymentHistory": "CCCCCCCC00CC0000CCCCC00CC",
+       "revolvingOrInstallment": "R",
+       "status": "11",
+       "statusDate": "02012025",
+       "subscriberCode": "3276502",
+       "subscriberName": "DISCOVER BANK",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "025758999012538262",
+       "accountType": "18",
+       "amount1": "00000716",
+       "amount1Qualifier": "H",
+       "balanceAmount": "00000064",
+       "balanceDate": "02012025",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "creditLimitAmount": "UNKNOWN",
+        "enhancedAccountCondition": "A1",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "C",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "REV",
+        "highBalanceAmount": "0000000716",
+        "paymentLevelDate": "02012025"
+       },
+       "evaluation": "P",
+       "kob": "BC",
+       "monthsHistory": "01",
+       "openDate": "08011986",
+       "openOrClosed": "O",
+       "paymentHistory": "C",
+       "revolvingOrInstallment": "R",
+       "status": "11",
+       "statusDate": "02012025",
+       "subscriberCode": "1229200",
+       "subscriberName": "AMEX",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "025758999012338262",
+       "accountType": "18",
+       "amount1": "00002808",
+       "amount1Qualifier": "H",
+       "balanceAmount": "00002808",
+       "balanceDate": "02012025",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "creditLimitAmount": "UNKNOWN",
+        "enhancedAccountCondition": "A1",
+        "enhancedAccountType": "18",
+        "enhancedPaymentHistory84": "C",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "001",
+        "highBalanceAmount": "0000002808",
+        "paymentLevelDate": "02012025"
+       },
+       "evaluation": "P",
+       "kob": "BC",
+       "monthsHistory": "01",
+       "openDate": "08011986",
+       "openOrClosed": "O",
+       "paymentHistory": "C",
+       "revolvingOrInstallment": "R",
+       "status": "11",
+       "statusDate": "02012025",
+       "subscriberCode": "1229200",
+       "subscriberName": "AMEX",
+       "terms": "001"
+      },
+      {
+       "accountNumber": "160710459",
+       "accountType": "26",
+       "amount1": "00065000",
+       "amount1Qualifier": "O",
+       "balanceAmount": "00056326",
+       "balanceDate": "01282025",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "2",
+       "enhancedPaymentData": {
+        "enhancedAccountCondition": "A1",
+        "enhancedAccountType": "26",
+        "enhancedPaymentHistory84": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "180",
+        "originalLoanAmount": "0000065000",
+        "paymentLevelDate": "01012025",
+        "secondaryAgencyCode": "02",
+        "secondaryAgencyId": "407975888"
+       },
+       "evaluation": "P",
+       "kob": "BS",
+       "lastPaymentDate": "01032025",
+       "monthlyPaymentAmount": "00000920",
+       "monthlyPaymentType": "S",
+       "monthsHistory": "33",
+       "openDate": "05042022",
+       "openOrClosed": "O",
+       "paymentHistory": "CCCCCCCCCCCCCCCCCCCCCCCCC",
+       "revolvingOrInstallment": "I",
+       "status": "11",
+       "statusDate": "01012025",
+       "subscriberCode": "1870202",
+       "subscriberName": "ULSTER SAVINGS BANK",
+       "terms": "180"
+      },
+      {
+       "accountNumber": "31892289157",
+       "accountType": "07",
+       "amount1": "00000700",
+       "amount1Qualifier": "L",
+       "amount2": "00000270",
+       "amount2Qualifier": "H",
+       "balanceAmount": "00000000",
+       "balanceDate": "07272023",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "1",
+       "enhancedPaymentData": {
+        "creditLimitAmount": "0000000700",
+        "enhancedAccountCondition": "A1",
+        "enhancedAccountType": "07",
+        "enhancedPaymentHistory84": "000000000000000000000000000000000000000000000000000000000000000000000000000C",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "REV",
+        "highBalanceAmount": "0000000270",
+        "paymentLevelDate": "07012023"
+       },
+       "evaluation": "P",
+       "kob": "DZ",
+       "lastPaymentDate": "05172017",
+       "monthsHistory": "76",
+       "openDate": "04252017",
+       "openOrClosed": "O",
+       "paymentHistory": "0000000000000000000000000",
+       "revolvingOrInstallment": "R",
+       "status": "11",
+       "statusDate": "07012023",
+       "subscriberCode": "2305980",
+       "subscriberName": "MISC. DEPT. & VARIETY",
+       "terms": "REV"
+      },
+      {
+       "accountNumber": "4706907759",
+       "accountType": "07",
+       "amount1": "00000156",
+       "amount1Qualifier": "L",
+       "amount2": "00000991",
+       "amount2Qualifier": "H",
+       "balanceAmount": "00000000",
+       "balanceDate": "07032015",
+       "delinquencies30Days": "00",
+       "delinquencies60Days": "00",
+       "delinquencies90to180Days": "00",
+       "derogCounter": "00",
+       "ecoa": "3",
+       "enhancedPaymentData": {
+        "creditLimitAmount": "0000000156",
+        "enhancedAccountCondition": "A4",
+        "enhancedAccountType": "07",
+        "enhancedPaymentHistory84": "-------------C",
+        "enhancedPaymentStatus": "11",
+        "enhancedTerms": "REV",
+        "highBalanceAmount": "0000000991",
+        "paymentLevelDate": "06012014"
+       },
+       "evaluation": "P",
+       "kob": "AU",
+       "lastPaymentDate": "06172014",
+       "monthsHistory": "99",
+       "openDate": "10272006",
+       "openOrClosed": "O",
+       "paymentHistory": "-------------C",
+       "revolvingOrInstallment": "R",
+       "status": "11",
+       "statusDate": "06012014",
+       "subscriberCode": "2225419",
+       "subscriberName": "NOWCOM/AUTOLINK LLC",
+       "terms": "REV"
+      }
+     ]
+    },
+    "FICO2": 810,
+    "hardCreditScore": 836,
+    "profileSummary": {
+     "delinquencies30Days": "00",
+     "delinquencies60Days": "00",
+     "delinquencies90to180Days": "00",
+     "derogCounter": "00",
+     "disputedAccountsExcluded": "000",
+     "inquiriesDuringLast6Months": "000",
+     "installmentBalance": "00000000",
+     "monthlyPayment": "00000018",
+     "monthlyPaymentPartialFlag": "*",
+     "nowDelinquentDerog": "000",
+     "oldestTradeDate": "05011984",
+     "paidAccounts": "024",
+     "pastDueAmount": "00000000",
+     "publicRecordsCount": "000",
+     "realEstateBalance": "00056326",
+     "realEstatePayment": "00000920",
+     "revolvingAvailablePercent": "080",
+     "revolvingBalance": "00002896",
+     "satisfactoryAccounts": "031",
+     "totalInquiries": "000",
+     "totalTradeItems": "031",
+     "wasDelinquentDerog": "000"
+    },
+    "updatedAt": "2025-04-28T12:54:10.088Z"
+   },
+   "homeValuationVerification": {
+    "confidenceScore": 85,
+    "confidenceScore1": 85,
+    "confidenceScore2": 69,
+    "estimatedCostData": 550077,
+    "estimatedCostData1": 550077,
+    "estimatedCostData2": 533000,
+    "fsd": 0.15,
+    "fsd1": 0.15,
+    "fsd2": 0.31,
+    "message": "$550,077",
+    "processingStatus": true,
+    "status": "success",
+    "usedValuesFrom": "Clear Capital",
+    "valuationDate": "2025-04-28T12:51:57.767Z",
+    "valuationReviewPendingDates": {
+     "dateFalse": "2025-04-28T12:51:57.767Z"
+    }
+   },
+   "idVerification": {
+    "data": {},
+    "dateOfBirth": "1944/01/01",
+    "message": "Completed! Looks good.",
+    "reportIdPersona": "rep_Dwgv4bEHy9bbxTvMQszLnciWTjnZ",
+    "socialSecurityNumber": "666342009",
+    "status": "success"
+   },
+   "incomeVerification": {
+    "annualIncome": 101400,
+    "employerName": "Enterprise One-Verifier Integrations Only",
+    "employmentStartDate": "01-17-1998",
+    "fastPass": true,
+    "hardpullMissingMessage": "DTI is approved subject to hard credit validation.",
+    "incomeSelection": "W2 (TWN)",
+    "incomeSources": {
+     "otherIncome": 0,
+     "rentalIncome": 0,
+     "salaryIncome": 263636,
+     "selfEmploymentIncome": 0,
+     "socialIncome": 0
+    },
+    "message": "The final offer is confirmed.",
+    "monthsOfIncome": 327,
+    "needsReview": false,
+    "position": "DEMO MANAGER - OPERATIONS",
+    "processingStatus": false,
+    "status": "success",
+    "theWorkNumber": {
+     "employmentDataActive": [
+      {
+       "employee": {
+        "annualCompensation": [
+         {
+          "TSVTOTAL": {
+           "_text": "25800.0"
+          },
+          "TSVYEAR": {
+           "_text": "2025"
+          }
+         },
+         {
+          "TSVTOTAL": {
+           "_text": "97950.0"
+          },
+          "TSVYEAR": {
+           "_text": "2024"
+          }
+         },
+         {
+          "TSVTOTAL": {
+           "_text": "97950.0"
+          },
+          "TSVYEAR": {
+           "_text": "2023"
+          }
+         }
+        ],
+        "baseCompensation": {
+         "hoursWorked": "40",
+         "payFrequency": {
+          "code": "10",
+          "message": "13 Times/year"
+         },
+         "payPeriodFrequency": {
+          "code": "7",
+          "message": "Weekly"
+         },
+         "rateOfPay": "7800.0"
+        },
+        "firstName": "Patricia",
+        "lastName": "Eerat",
+        "position": "DEMO MANAGER - OPERATIONS",
+        "projectedIncome": 101400,
+        "ssn": "666190810",
+        "startDate": "01-17-1998",
+        "status": {
+         "code": "1",
+         "message": "Active"
+        },
+        "totalLengthOfService": 327
+       },
+       "employer": {
+        "code": "13502",
+        "name": "Enterprise One-Verifier Integrations Only"
+       }
+      }
+     ],
+     "employmentDataInactive": [
+      {
+       "employee": {
+        "annualCompensation": [
+         {
+          "TSVTOTAL": {
+           "_text": "55050.0"
+          },
+          "TSVYEAR": {
+           "_text": "2023"
+          }
+         },
+         {
+          "TSVTOTAL": {
+           "_text": "96000.0"
+          },
+          "TSVYEAR": {
+           "_text": "2022"
+          }
+         },
+         {
+          "TSVTOTAL": {
+           "_text": "96735.0"
+          },
+          "TSVYEAR": {
+           "_text": "2016"
+          }
+         }
+        ],
+        "baseCompensation": {
+         "hoursWorked": "40",
+         "payFrequency": {
+          "code": "10",
+          "message": "13 Times/year"
+         },
+         "payPeriodFrequency": {
+          "code": "7",
+          "message": "Weekly"
+         },
+         "rateOfPay": "7800.0"
+        },
+        "firstName": "Patricia",
+        "lastName": "Eerat",
+        "position": "DEMO MANAGER - OPERATIONS",
+        "projectedIncome": 0,
+        "ssn": "666190810",
+        "startDate": "01-17-1998",
+        "status": {
+         "code": "56",
+         "message": "Not Currently on Payroll"
+        },
+        "totalLengthOfService": 0
+       },
+       "employer": {
+        "code": "91001",
+        "name": "Enterprise One"
+       }
+      }
+     ],
+     "key": "100545844699416/temp_borrower_100545844699416/admin/100545844699416_TWN Income Report B1.pdf",
+     "projectedAnnualIncome": 101400,
+     "responseData": {
+      "dateTimeServer": "20250428125156",
+      "severity": "INFO",
+      "status": 0
+     },
+     "selectorTransaction": {
+      "loanId": "100545844699416",
+      "statusCode": 0,
+      "statusSeverity": "INFO",
+      "transactionId": "999204533686"
+     }
+    },
+    "twnWasRun": true
+   },
+   "insuranceVerification": {
+    "messageToAdmin": "2nd lien - not needed",
+    "status": "success"
+   },
+   "recordingVerification": {
+    "recordingInfo": [
+     {
+      "recordingId": "C68A230F-01B9-1E26-8104-2D573CCD37DD"
+     }
+    ],
+    "status": "pending"
+   },
+   "scheduleClosingVerification": {
+    "date": "2025-04-28T12:58:43.843Z",
+    "disbursmentDate": "2025-05-02",
+    "drawExpirationDate": "2030-04-28T00:00:00.000Z",
+    "maturityDate": "2055-04-28T00:00:00.000Z",
+    "message": "Closing is scheduled for April 28, 2025",
+    "sendDocuments": "2025-04-23T00:00:00.000Z",
+    "status": "success"
+   },
+   "titleVerification": {
+    "additionalPropertyInfo": [
+    ],
+    "borrowerName": "Ronald Frame",
+    "closingDocsDrawnAs": "Ronald Frame as Community Property with right of survivorship",
+    "countyFees": 420,
+    "deedBookValue": "",
+    "deedDatedDate": "2021-09-17T00:00:00+00:00",
+    "deedInstrumentValue": "2021004001",
+    "deedPageValue": "",
+    "deedRecordedDate": "2021-09-23T00:00:00+00:00",
+    "documentName": "039430ed8bcc696e512f38c724e0765a.pdf",
+    "documentPdfId": "qyg8rqrJxmIY0yXkOokWHPDk2yk",
+    "eRecordingFees": 5,
+    "instrumentValue": "2021004002",
+    "intangibleTax": 0,
+    "isJudgementToReport": false,
+    "legalDescComments": "SITUATED IN THE COUNTY OF HENRY BOROUGH OF HENRY AND STATE OF OHIO.SITUATED IN THE TOWNSHIP OF WASHINGTON. COUNTY OF HENRY AND THE STATE OF OHIO:",
+    "message": "Title reviewed successfully.",
+    "morageTax": 0,
+    "mortgageAmount": 50000,
+    "mortgageBookValue": "",
+    "mortgageMortgagee": "MERS, Inc., as nominee for Rocket Mortgage, LLC, FKA Quicken Loans, LLC",
+    "mortgagePageValue": "",
+    "mortgageRecordedDate": "2021-09-23T00:00:00+00:00",
+    "mortgagesInfo": [
+     {
+      "amount": 50000,
+      "datedDate": "2021-09-17T00:00:00+00:00",
+      "mortgagee": "MERS, Inc., as nominee for Rocket Mortgage, LLC, FKA Quicken Loans, LLC"
+     }
+    ],
+    "mortgageTrusteeName": "",
+    "needReview": false,
+    "needReviewReason": [
+    ],
+    "orderDate": "2025-04-28T12:54:20.046Z",
+    "orderId": "777179126",
+    "orderType": "Property Report",
+    "recordingFeesAndOtherTaxes": 46,
+    "requiredToAttendClosing": "Ronald Frame",
+    "responseDate": "2025-04-28T12:54:22.595Z",
+    "startDate": "2025-04-28T12:57:18.515Z",
+    "stateFees": 250,
+    "status": "success",
+    "submitterDocumentID": "a38dcd3f-abf5-49d1-b07e-918dd373498c",
+    "submitterPackageID": "2cb15b00-5768-41d6-9128-64924a34089c",
+    "taxFeesAmount": 420,
+    "taxId": "302600600000",
+    "taxPayment": [
+     {
+      "isTaxDataDirty": false,
+      "taxAgency": {
+       "address1": "COURTHOUSE SQUARE",
+       "address2": "555 COURT ST NE ROOM 2242",
+       "agencyName": "MARION COUNTY",
+       "city": "SALEM",
+       "fax": "(503) 566-3911",
+       "fips": "41047",
+       "phoneNumber": "(503) 588-5215",
+       "stateCode": "OR",
+       "zipCode": "97301"
+      },
+      "taxId": "570830",
+      "taxInstallmentInfo": {
+       "discount1Amount": 3123.2,
+       "discount1PaidByDate": "2023-11-15T00:00:00+00:00",
+       "discount1Percentage": 3,
+       "installment1Amount": 3219.79,
+       "installment1DueDate": "2023-11-15T00:00:00+00:00",
+       "installment1StatusName": "Paid",
+       "installmentTotalValue": 3219.79
+      },
+      "taxPaymentId": 3916665,
+      "taxPeriodTypeId": 0,
+      "taxTypeName": "County",
+      "taxYear": "2023"
+     }
+    ],
+    "vesting": "Ronald Frame as Community Property with right of survivorship",
+    "yearsInHome": 3
+   },
+   "updatedAt": 1745845463
+  },
+  "brokerId": "ae9f412c-c6e1-43d6-8186-ceb205f97ca4",
+  "brokerSk": "METADATA",
+  "closingFees": 5513.7,
+  "createdAt": 1745844703,
+  "drawTerm": 60,
+  "finalOffer": {
+   "amount": 175000,
+   "appliedAdjustors": 0,
+   "appraisalFees": 95,
+   "APR": 0.09661590576171872,
+   "cltv": 0.4205338525333726,
+   "debtToIncomeRatio": 0.2711883629191322,
+   "initialAdvanceAmount": 175000,
+   "initialDrawAmount": 169486.3,
+   "interestRate": 0.0935,
+   "loanCountyFIPS": "51003",
+   "marginRate": 0.0185,
+   "maximumInitialDraw": 175000,
+   "maxOffer": 250000,
+   "minimumInitialDraw": 131250,
+   "minOffer": 175000,
+   "monthlyInterestCharge": 136.35416666666666,
+   "monthlyPayment": 1363.54,
+   "monthlyPaymentInitialDraw": 1363.54,
+   "netFundingWiredToBank": 169486.3,
+   "pricingEngineCreatedAt": "2025-03-18T14:39:36.786Z",
+   "pricingEngineId": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE",
+   "primeRate": 0.075,
+   "updatedAt": "2025-04-28T12:59:04.660Z"
+  },
+  "helocALTd": "2025-04-28",
+  "initialOffer": {
+   "amount": 100000,
+   "annualIncome": 263636,
+   "appliedAdjustors": 0,
+   "appraisalFees": 95,
+   "APR": 0.09661590576171872,
+   "cltv": 0.284189304406474,
+   "createdAt": "2025-04-28T12:53:31.283Z",
+   "creditScore": 780,
+   "currentLoanBalance": 100000,
+   "debtToIncomeRatio": 0.22144023668639054,
+   "dtiBeforeSendInviteEmail": 0.08517046230408594,
+   "employerNameBorrower": "2",
+   "initialDrawAmount": 96802.97,
+   "interestRate": 0.0935,
+   "loanCountyFIPS": "51003",
+   "marginRate": 0.0185,
+   "maximumInitialDraw": 100000,
+   "maxOffer": 383735,
+   "minimumInitialDraw": 75000,
+   "minOffer": 100000,
+   "monthlyInterestCharge": 77.91666666666667,
+   "monthlyPayment": 779.17,
+   "monthlyPaymentInitialDraw": 779.17,
+   "netFundingWiredToBank": 97260,
+   "pricingEngineCreatedAt": "2025-03-18T14:39:36.786Z",
+   "pricingEngineId": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE",
+   "primeRate": 0.075,
+   "startDateBorrower": "1945-01-01",
+   "tnMaxOffer": null,
+   "totalAnnualIncomeBorrower": 263636,
+   "updatedAt": "2025-04-28T12:51:59.987Z",
+   "useProceeds": "Home Improvement"
+  },
+  "inputValuesFromSignUp": {
+   "originalLoanAmountFromSignUp": 100000
+  },
+  "investors": {
+   "possibleInvestors": [
+    {
+     "id": "55d3a7f6-3c6b-4ea3-bb0e-8b8bdf0bf28f",
+     "name": "JP Morgan"
+    },
+    {
+     "id": "c66b4586-ae37-49a4-9d92-90eb7a50e7cf",
+     "name": "Goldman Sachs"
+    },
+    {
+     "id": "12261404-2d46-489b-8a19-87c5ba2fae3c",
+     "name": "Saluda Grade"
+    },
+    {
+     "id": "e00a1fd5-3061-4ebe-9d97-656accb95914",
+     "name": "Angel Oak"
+    },
+    {
+     "id": "7e859489-be8d-4821-b5af-695beccdf310",
+     "name": "Angelo Gordon"
+    },
+    {
+     "id": "202e6092-5e2c-4b5e-92de-18d37fde6baa",
+     "name": "NFTYFund"
+    },
+    {
+     "id": "96a871ba-29dc-49b9-82f9-fdbc856138ea",
+     "name": "BAWAG"
+    },
+    {
+     "id": "0b7d9a88-bcaa-4bfa-aa46-8e9e0fa7c039",
+     "name": "Bayview"
+    }
+   ],
+   "prices": [
+    {
+     "investorId": "55d3a7f6-3c6b-4ea3-bb0e-8b8bdf0bf28f",
+     "investorName": "JP Morgan",
+     "price": {
+      "investorPremiumAmount": 448332.64,
+      "loanMaxPrice": 102.64,
+      "loanValue": 179620
+     }
+    },
+    {
+     "investorId": "96a871ba-29dc-49b9-82f9-fdbc856138ea",
+     "investorName": "BAWAG",
+     "price": {
+      "investorPremiumAmount": 513714.48,
+      "loanMaxPrice": 103.025,
+      "loanValue": 180293.75
+     }
+    },
+    {
+     "investorId": "7e859489-be8d-4821-b5af-695beccdf310",
+     "investorName": "Angelo Gordon",
+     "price": {
+      "investorPremiumAmount": -245181.91,
+      "loanMaxPrice": 98.55625,
+      "loanValue": 172473.44
+     }
+    },
+    {
+     "investorId": "c66b4586-ae37-49a4-9d92-90eb7a50e7cf",
+     "investorName": "Goldman Sachs",
+     "price": {
+      "investorPremiumAmount": -271716.75,
+      "loanMaxPrice": 98.4,
+      "loanValue": 172200
+     }
+    },
+    {
+     "investorId": "12261404-2d46-489b-8a19-87c5ba2fae3c",
+     "investorName": "Saluda Grade",
+     "price": {
+      "investorPremiumAmount": -245181.91,
+      "loanMaxPrice": 98.55625,
+      "loanValue": 172473.44
+     }
+    },
+    {
+     "investorId": "0b7d9a88-bcaa-4bfa-aa46-8e9e0fa7c039",
+     "investorName": "Bayview",
+     "price": {
+      "investorPremiumAmount": 513714.48,
+      "loanMaxPrice": 103.025,
+      "loanValue": 180293.75
+     }
+    },
+    {
+     "investorId": "202e6092-5e2c-4b5e-92de-18d37fde6baa",
+     "investorName": "NFTYFund",
+     "price": {
+      "investorPremiumAmount": 46701.32,
+      "loanMaxPrice": 100.275,
+      "loanValue": 175481.25
+     }
+    },
+    {
+     "investorId": "e00a1fd5-3061-4ebe-9d97-656accb95914",
+     "investorName": "Angel Oak",
+     "price": {
+      "investorPremiumAmount": -483146.35,
+      "loanMaxPrice": 97.155,
+      "loanValue": 170021.25
+     }
+    }
+   ],
+   "pricingDate": "04-28-2025"
+  },
+  "invite": {
+   "body": {
+    "addCoborrower": "No",
+    "analyzed": true,
+    "annualDebts": "9398.039999999999",
+    "assistedFullyCompleting": true,
+    "assistedUnderstanding": true,
+    "borrowerAddress": {
+     "city": "Greenwood",
+     "entries": 0,
+     "secondary": "",
+     "source": "postal",
+     "state": "VA",
+     "street_line": "8100 Summer Rest Ln",
+     "zipcode": "22943"
+    },
+    "code": "3efbe083-aee4-4796-847a-447a3e974f2b",
+    "completedByBorrower": false,
+    "confirmEmailAddressBorrower": "rfm@yopmail.com",
+    "creditScoreRange": {
+     "label": "780 - 850",
+     "value": "780 - 850"
+    },
+    "currentLoanBalance": "$100,000",
+    "dateOfBirthBorrower": "1944-01-01",
+    "dti": "3.56%",
+    "educated": true,
+    "emailAddressBorrower": "rfm@yopmail.com",
+    "employerNameBorrower": "2",
+    "employmentTypeBorrower": {
+     "label": "Full Time Employed/ W2",
+     "value": "Full Time Employed/ W2"
+    },
+    "estimatedHomeValue": "$500,000",
+    "inATrust": "No",
+    "incomeSourcesBorrower": {
+     "otherIncome": "",
+     "rentalIncome": "",
+     "salaryIncome": 263636,
+     "selfEmploymentIncome": "",
+     "socialIncome": ""
+    },
+    "isB1Mobile": true,
+    "legalFirstNameBorrower": "Ronald",
+    "legalLastNameBorrower": "Frame",
+    "lienMortgagePayment": "$2",
+    "loanId": "100545844699416",
+    "maintain": true,
+    "manualAddress": false,
+    "manualBorrowerAddress": false,
+    "manualCoborrowerAddress": false,
+    "maritalStatusBorrower": {
+     "label": "Unmarried",
+     "value": "Unmarried"
+    },
+    "mloLicenseValid": "Yes",
+    "nameAcknowledge": "agm",
+    "occupancyType": {
+     "label": "Primary Residence",
+     "value": "Primary Residence"
+    },
+    "otherMonthlyDebts": "$2",
+    "phoneBorrower": "+10000000000",
+    "propertyAddress": {
+     "city": "Greenwood",
+     "entries": 0,
+     "secondary": "",
+     "source": "postal",
+     "state": "VA",
+     "street_line": "8100 Summer Rest Ln",
+     "zipcode": "22943"
+    },
+    "rentalProperties": "",
+    "requestedLoanAmount": "$100,000",
+    "ssnBorrower": "666-34-2009",
+    "startDateBorrower": "1945-01-01",
+    "totalAnnualIncomeBorrower": "263636",
+    "totalHouseholdIncome": "263636",
+    "useOfProceeds": {
+     "label": "Home Improvement",
+     "value": "Home Improvement"
+    }
+   },
+   "invite": {
+    "address": {
+     "city": "Greenwood",
+     "entries": 0,
+     "secondary": "",
+     "source": "postal",
+     "state": "VA",
+     "street_line": "8100 Summer Rest Ln",
+     "zipcode": "22943"
+    },
+    "annualIncome": "263636",
+    "body": {
+     "addCoborrower": "No",
+     "analyzed": true,
+     "annualDebts": "9398.039999999999",
+     "assistedFullyCompleting": true,
+     "assistedUnderstanding": true,
+     "avmHomeValue": "$550,077",
+     "borrowerAddress": {
+      "city": "Greenwood",
+      "entries": 0,
+      "secondary": "",
+      "source": "postal",
+      "state": "VA",
+      "street_line": "8100 Summer Rest Ln",
+      "zipcode": "22943"
+     },
+     "code": "3efbe083-aee4-4796-847a-447a3e974f2b",
+     "completedByBorrower": false,
+     "confirmEmailAddressBorrower": "rfm@yopmail.com",
+     "creditScoreRange": {
+      "label": "780 - 850",
+      "value": "780 - 850"
+     },
+     "currentLoanBalance": "$100,000",
+     "dateOfBirthBorrower": "1944-01-01",
+     "dti": "3.56%",
+     "educated": true,
+     "emailAddressBorrower": "rfm@yopmail.com",
+     "employerNameBorrower": "2",
+     "employmentTypeBorrower": {
+      "label": "Full Time Employed/ W2",
+      "value": "Full Time Employed/ W2"
+     },
+     "estimatedHomeValue": "$500,000",
+     "inATrust": "No",
+     "incomeSourcesBorrower": {
+      "otherIncome": "",
+      "rentalIncome": "",
+      "salaryIncome": 263636,
+      "selfEmploymentIncome": "",
+      "socialIncome": ""
+     },
+     "isB1Mobile": true,
+     "legalFirstNameBorrower": "Ronald",
+     "legalFullNameBorrower": "Ronald Frame",
+     "legalLastNameBorrower": "Frame",
+     "lienMortgagePayment": "$2",
+     "loanId": "100545844699416",
+     "loanOfficerEmail": "agmlo@yopmail.com",
+     "loanOfficerFirstName": "Agustin",
+     "loanOfficerFullName": "Agustin Giudizi",
+     "loanOfficerLastName": "Giudizi",
+     "maintain": true,
+     "manualAddress": false,
+     "manualBorrowerAddress": false,
+     "manualCoborrowerAddress": false,
+     "maritalStatusBorrower": {
+      "label": "Unmarried",
+      "value": "Unmarried"
+     },
+     "mloLicenseValid": "Yes",
+     "nameAcknowledge": "agm",
+     "occupancyType": {
+      "label": "Primary Residence",
+      "value": "Primary Residence"
+     },
+     "otherMonthlyDebts": "$2",
+     "phoneBorrower": "+10000000000",
+     "propertyAddress": {
+      "city": "Greenwood",
+      "entries": 0,
+      "secondary": "",
+      "source": "postal",
+      "state": "VA",
+      "street_line": "8100 Summer Rest Ln",
+      "zipcode": "22943"
+     },
+     "rentalProperties": "",
+     "requestedLoanAmount": "$100,000",
+     "ssnBorrower": "666-34-2009",
+     "startDateBorrower": "1945-01-01",
+     "totalAnnualIncomeBorrower": "263636",
+     "totalHouseholdIncome": "263636",
+     "useOfProceeds": {
+      "label": "Home Improvement",
+      "value": "Home Improvement"
+     }
+    },
+    "brokerId": "ae9f412c-c6e1-43d6-8186-ceb205f97ca4",
+    "brokerSk": "METADATA",
+    "code": "3efbe083-aee4-4796-847a-447a3e974f2b",
+    "createdAt": "2025-04-28T12:51:43.533Z",
+    "creditScore": "780 - 850",
+    "currentLoanBalance": "$100,000",
+    "email": "rfm@yopmail.com",
+    "employerNameBorrower": "2",
+    "employmentType": "Full Time Employed/ W2",
+    "fastPass": true,
+    "firstName": "Ronald",
+    "homeValue": "$500,000",
+    "inviteType": "one_use",
+    "isMobile": true,
+    "lastName": "Frame",
+    "loanId": "100545844699416",
+    "loanOfficerId": "a7f841d4-aed4-48db-8615-67e4bf7896bb",
+    "maritalStatus": "Unmarried",
+    "mloLicenseValid": "Yes",
+    "occupancy": "Primary Residence",
+    "phone": "",
+    "phoneNumber": "+10000000000",
+    "privateLabelId": "PRIVATE#LABEL#test.nftydoor.com",
+    "propertyAddress": {
+     "city": "Greenwood",
+     "entries": 0,
+     "secondary": "",
+     "source": "postal",
+     "state": "VA",
+     "street_line": "8100 Summer Rest Ln",
+     "zipcode": "22943"
+    },
+    "requestedNewLoan": "$100,000",
+    "startDateBorrower": "1945-01-01",
+    "status": "pending",
+    "submittedByLO": true,
+    "urlNameBroker": "",
+    "urlNameLoanOfficer": "",
+    "useProceeds": "Home Improvement"
+   }
+  },
+  "inviteCode": "3efbe083-aee4-4796-847a-447a3e974f2b",
+  "inviteCreationDate": "2025-04-28T12:51:43.564Z",
+  "isB1Mobile": false,
+  "isB2Mobile": false,
+  "loanFees": {
+   "AVMInspection": 0,
+   "brokerCommission": 2,
+   "brokerComp": 2000,
+   "cashDuetoBorrower": "169486.30",
+   "complianceDocPrepeNote": 0,
+   "complianceDocPrepEnoteFee": 23,
+   "creditReport": 0,
+   "creditReportFee": 2.7,
+   "eRecordingFee": 5.25,
+   "fees": "5513.70",
+   "feesByLoanStateType": {
+    "AVMInspection": 0,
+    "brokerComp": 3500,
+    "complianceDocPrepeNote": 0,
+    "creditReport": 2.7,
+    "IDVerification": 0,
+    "notary": false,
+    "originationFee": 1295,
+    "originationFeeTotal": 0.0274,
+    "valuesInNotary": {
+     "notaryFeeDocutech": 0,
+     "propertyReportFeeServicelink": 0,
+     "recordingFeeSimplifile": 0
+    }
+   },
+   "idVerficationFee": 1.92,
+   "IDVerification": 0,
+   "legalVestingFee": 75,
+   "notary": false,
+   "notaryFee": 40,
+   "originationFee": 740,
+   "originationFeeTotal": 0.0274,
+   "propertyAvmInspectionFee": 12,
+   "valuesInNotary": {
+    "notaryFeeDocutech": 0,
+    "propertyReportFeeServicelink": 0,
+    "recordingFeeSimplifile": 0
+   }
+  },
+  "loanMIN": "100288270000125906",
+  "loanNumberSLS": "PRIVATE#LABEL#test.nftydoor.com#1032879873",
+  "loanOfficerId": "a7f841d4-aed4-48db-8615-67e4bf7896bb",
+  "loanStatusCode": "B1BRD1",
+  "loanStatusHistory": [
+  ],
+  "loanTerm": 360,
+  "loanType": "HELOC",
+  "newBorrowerStatusCode": "CLS100",
+  "newLoanStatusCode": "CLS100",
+  "newLoanStatusCodeCreatedAt": "2025-04-28T13:05:51.139Z",
+  "newLoanStatusHistory": [
+   {
+    "createdAt": "2025-04-28T13:05:51.139Z",
+    "function": "nftydoor-app-dev-modernTreasuryWebhook",
+    "loanStatusCode": "CLS100"
+   },
+   {
+    "createdAt": "2025-04-28T13:01:09.025Z",
+    "function": "nftydoor-app-dev-saveBankAccount",
+    "loanStatusCode": "CLS090"
+   },
+   {
+    "createdAt": "2025-04-28T12:59:31.647Z",
+    "function": "nftydoor-admin-dev-adminTimelineEvent",
+    "loanStatusCode": "CLS080",
+    "userId": "c52e6284-b6c4-4665-94a2-2d0e1bc9d19e",
+    "userName": "Admin Dev",
+    "userType": "SuperAdmin"
+   },
+   {
+    "createdAt": "2025-04-28T12:59:29.231Z",
+    "function": "nftydoor-app-dev-sendFinalDisclosures",
+    "loanStatusCode": "CTC071"
+   },
+   {
+    "createdAt": "2025-04-28T12:59:02.498Z",
+    "function": "nftydoor-admin-dev-getClosingReview",
+    "loanStatusCode": "CTC060"
+   },
+   {
+    "createdAt": "2025-04-28T12:58:44.693Z",
+    "function": "nftydoor-app-dev-scheduleClosingDate",
+    "loanStatusCode": "CTC060"
+   },
+   {
+    "createdAt": "2025-04-28T12:58:36.796Z",
+    "function": "nftydoor-admin-dev-getClosingReview",
+    "loanStatusCode": "CTC060"
+   },
+   {
+    "createdAt": "2025-04-28T12:58:18.057Z",
+    "function": "nftydoor-app-dev-acceptOffer",
+    "loanStatusCode": "CTC060"
+   },
+   {
+    "createdAt": "2025-04-28T12:58:17.534Z",
+    "function": "nftydoor-app-dev-scheduleClosingDate",
+    "loanStatusCode": "CTC060"
+   },
+   {
+    "createdAt": "2025-04-28T12:58:12.659Z",
+    "function": "nftydoor-app-dev-acceptOffer",
+    "loanStatusCode": "CTC060"
+   },
+   {
+    "createdAt": "2025-04-28T12:57:56.132Z",
+    "function": "nftydoor-app-dev-changeOfferAmount",
+    "loanStatusCode": "CTC059"
+   },
+   {
+    "createdAt": "2025-04-28T12:57:18.846Z",
+    "function": "nftydoor-admin-dev-adminTimelineEvent",
+    "loanStatusCode": "CTC059",
+    "userId": "c52e6284-b6c4-4665-94a2-2d0e1bc9d19e",
+    "userName": "Admin Dev",
+    "userType": "SuperAdmin"
+   },
+   {
+    "createdAt": "2025-04-28T12:56:33.146Z",
+    "function": "nftydoor-admin-dev-adminTimelineEvent",
+    "loanStatusCode": "TTL050",
+    "userId": "c52e6284-b6c4-4665-94a2-2d0e1bc9d19e",
+    "userName": "Admin Dev",
+    "userType": "SuperAdmin"
+   },
+   {
+    "createdAt": "2025-04-28T12:56:32.706Z",
+    "function": "nftydoor-admin-dev-adminTimelineEvent",
+    "loanStatusCode": "TTL050",
+    "userId": "c52e6284-b6c4-4665-94a2-2d0e1bc9d19e",
+    "userName": "Admin Dev",
+    "userType": "SuperAdmin"
+   },
+   {
+    "createdAt": "2025-04-28T12:56:00.438Z",
+    "function": "nftydoor-lo-dev-validatePrequalifyDisclosures",
+    "loanStatusCode": "TTL040"
+   },
+   {
+    "createdAt": "2025-04-28T12:56:00.101Z",
+    "function": "nftydoor-lo-dev-validatePrequalifyDisclosures",
+    "loanStatusCode": "TTL040"
+   },
+   {
+    "createdAt": "2025-04-28T12:55:59.719Z",
+    "function": "nftydoor-lo-dev-validatePrequalifyDisclosures",
+    "loanStatusCode": "TTL040"
+   },
+   {
+    "createdAt": "2025-04-28T12:55:58.681Z",
+    "function": "nftydoor-lo-dev-validatePrequalifyDisclosures",
+    "loanStatusCode": "TTL040"
+   },
+   {
+    "createdAt": "2025-04-28T12:54:58.102Z",
+    "function": "nftydoor-app-dev-sendInitialDisclosures",
+    "loanStatusCode": "TTL040"
+   },
+   {
+    "createdAt": "2025-04-28T12:54:23.499Z",
+    "function": "nftydoor-app-dev-saveToLoan",
+    "loanStatusCode": "TTL040"
+   },
+   {
+    "createdAt": "2025-04-28T12:54:22.630Z",
+    "function": "nftydoor-app-dev-serviceLinkWebHook",
+    "loanStatusCode": "TTL040"
+   },
+   {
+    "createdAt": "2025-04-28T12:54:22.439Z",
+    "function": "nftydoor-app-dev-saveToLoan",
+    "loanStatusCode": "TTL040"
+   },
+   {
+    "createdAt": "2025-04-28T12:54:20.567Z",
+    "function": "nftydoor-app-dev-serviceLinkStartOrder",
+    "loanStatusCode": "TTL040"
+   },
+   {
+    "createdAt": "2025-04-28T12:54:18.333Z",
+    "function": "nftydoor-app-dev-validateHardCredit",
+    "loanStatusCode": "TTL040"
+   },
+   {
+    "createdAt": "2025-04-28T12:54:18.274Z",
+    "function": "nftydoor-admin-dev-createOffer",
+    "loanStatusCode": "TTL040"
+   },
+   {
+    "createdAt": "2025-04-28T12:54:18.234Z",
+    "function": "nftydoor-admin-dev-createOffer",
+    "loanStatusCode": "TTL040"
+   },
+   {
+    "createdAt": "2025-04-28T12:54:17.375Z",
+    "function": "nftydoor-app-dev-createFinalOffer",
+    "loanStatusCode": "TTL040"
+   },
+   {
+    "createdAt": "2025-04-28T12:54:08.701Z",
+    "function": "nftydoor-app-dev-saveToLoan",
+    "loanStatusCode": "DTI015"
+   },
+   {
+    "createdAt": "2025-04-28T12:54:07.850Z",
+    "function": "nftydoor-app-dev-defineLoanType",
+    "loanStatusCode": "DTI015"
+   },
+   {
+    "createdAt": "2025-04-28T12:54:06.924Z",
+    "function": "nftydoor-app-dev-simpliFileCalculateTax",
+    "loanStatusCode": "PQL113"
+   },
+   {
+    "createdAt": "2025-04-28T12:53:35.116Z",
+    "function": "nftydoor-app-dev-registerUserPostProcessing",
+    "loanStatusCode": "PQL113"
+   },
+   {
+    "createdAt": "2025-04-28T12:52:54.170Z",
+    "function": "nftydoor-lo-dev-prequalifyBorrowerDisclosures",
+    "loanStatusCode": "PQL113"
+   },
+   {
+    "createdAt": "2025-04-28T12:52:01.348Z",
+    "function": "nftydoor-app-dev-validateProperty",
+    "loanStatusCode": "PQL102"
+   },
+   {
+    "createdAt": "2025-04-28T12:51:58.560Z",
+    "function": "nftydoor-app-dev-validateCredit",
+    "loanStatusCode": "PQL102"
+   },
+   {
+    "createdAt": "2025-04-28T12:51:58.405Z",
+    "function": "nftydoor-core-dev-getTheWorkNumberReportDoor",
+    "loanStatusCode": "PQL102"
+   },
+   {
+    "createdAt": "2025-04-28T12:51:58.194Z",
+    "function": "nftydoor-core-dev-getTheWorkNumberReportDoor",
+    "loanStatusCode": "PQL102"
+   },
+   {
+    "createdAt": "2025-04-28T12:51:52.663Z",
+    "function": "nftydoor-app-dev-validateCredit",
+    "loanStatusCode": "PQL102"
+   },
+   {
+    "createdAt": "2025-04-28T12:51:50.814Z",
+    "function": "nftydoor-app-dev-validateIdentity",
+    "loanStatusCode": "PQL102"
+   },
+   {
+    "createdAt": "2025-04-28T12:51:46.793Z",
+    "function": "nftydoor-lo-dev-prequalifyBorrowerByLoanOfficer",
+    "loanStatusCode": "PQL102"
+   }
+  ],
+  "npe": {
+   "email": "cobo@yopmail.com",
+   "fullName": "SCHULTZ FELICIA MARTIN"
+  },
+  "occupancy": "Primary Residence",
+  "offersHistory": [
+   {
+    "amount": 100000,
+    "appliedAdjustors": 0,
+    "APR": 0.09661590576171872,
+    "cltv": 0.284189304406474,
+    "creditScore": 836,
+    "date": "2025-04-28T12:51:59.926Z",
+    "debtToIncomeRatio": 0.08517046230408594,
+    "homeValue": 550077,
+    "initialDrawAmount": 96942.3,
+    "interestRate": 0.0935,
+    "loanCountyFIPS": "51003",
+    "marginRate": 0.0185,
+    "maximumInitialDraw": 100000,
+    "maxOffer": 383735,
+    "maxOfferBasedOnCLTV": 383735.6,
+    "maxOfferBasedOnDTI": 400000,
+    "maxOfferBasedOnStateCap": 400000,
+    "minimumInitialDraw": 75000,
+    "minOffer": 100000,
+    "monthlyInterestCharge": 77.91666666666667,
+    "monthlyPayment": 779.17,
+    "netFundingWiredToBank": 97260,
+    "pricingEngineCreatedAt": "2025-03-18T14:39:36.786Z",
+    "pricingEngineId": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE",
+    "primeRate": 0.075,
+    "trigger": "validateProperty",
+    "type": "initial",
+    "userEmail": "system",
+    "userRoleName": "system"
+   },
+   {
+    "amount": 100000,
+    "appliedAdjustors": 0,
+    "APR": 0.09661590576171872,
+    "cltv": 0.284189304406474,
+    "creditScore": 836,
+    "date": "2025-04-28T12:53:31.283Z",
+    "debtToIncomeRatio": 0.08517046230408594,
+    "homeValue": 550077,
+    "initialDrawAmount": 100000,
+    "interestRate": 0.0935,
+    "loanCountyFIPS": "51003",
+    "marginRate": 0.0185,
+    "maximumInitialDraw": 100000,
+    "maxOffer": 383735,
+    "minimumInitialDraw": 75000,
+    "minOffer": 100000,
+    "monthlyInterestCharge": 77.91666666666667,
+    "monthlyPayment": 779.17,
+    "monthlyPaymentInitialDraw": 779.17,
+    "netFundingWiredToBank": 97260,
+    "pricingEngineCreatedAt": "2025-03-18T14:39:36.786Z",
+    "pricingEngineId": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE",
+    "primeRate": 0.075,
+    "trigger": "registerBorrower",
+    "type": "initial",
+    "userEmail": "rfm@yopmail.com",
+    "userRoleName": "Borrower"
+   },
+   {
+    "amount": 100000,
+    "appliedAdjustors": 0,
+    "APR": 0.09661590576171872,
+    "cltv": 0.284189304406474,
+    "creditScore": 836,
+    "date": "2025-04-28T12:54:03.938Z",
+    "debtToIncomeRatio": 0.08517046230408594,
+    "homeValue": 550077,
+    "initialDrawAmount": 96942.3,
+    "interestRate": 0.0935,
+    "loanCountyFIPS": "51003",
+    "marginRate": 0.0185,
+    "maximumInitialDraw": 100000,
+    "maxOffer": 383735,
+    "maxOfferBasedOnCLTV": 383735.6,
+    "maxOfferBasedOnDTI": 400000,
+    "maxOfferBasedOnStateCap": 400000,
+    "minimumInitialDraw": 75000,
+    "minOffer": 100000,
+    "monthlyInterestCharge": 77.91666666666667,
+    "monthlyPayment": 779.17,
+    "netFundingWiredToBank": 97260,
+    "pricingEngineCreatedAt": "2025-03-18T14:39:36.786Z",
+    "pricingEngineId": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE",
+    "primeRate": 0.075,
+    "trigger": "calculateHelocOffer/calculateHELOCInitialOffer",
+    "type": "initial",
+    "userEmail": "rfm@yopmail.com",
+    "userRoleName": "Borrower"
+   },
+   {
+    "amount": 100000,
+    "appliedAdjustors": 0,
+    "APR": 0.09661590576171872,
+    "cltv": 0.284189304406474,
+    "creditScore": 836,
+    "date": "2025-04-28T12:54:07.499Z",
+    "debtToIncomeRatio": 0.08517046230408594,
+    "homeValue": 550077,
+    "initialDrawAmount": 96802.97,
+    "interestRate": 0.0935,
+    "loanCountyFIPS": "51003",
+    "marginRate": 0.0185,
+    "maximumInitialDraw": 100000,
+    "maxOffer": 383735,
+    "maxOfferBasedOnCLTV": 383735.6,
+    "maxOfferBasedOnDTI": 400000,
+    "maxOfferBasedOnStateCap": 400000,
+    "minimumInitialDraw": 75000,
+    "minOffer": 100000,
+    "monthlyInterestCharge": 77.91666666666667,
+    "monthlyPayment": 779.17,
+    "netFundingWiredToBank": 97260,
+    "pricingEngineCreatedAt": "2025-03-18T14:39:36.786Z",
+    "pricingEngineId": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE",
+    "primeRate": 0.075,
+    "trigger": "defineLoanType",
+    "type": "initial",
+    "userEmail": "rfm@yopmail.com",
+    "userRoleName": "Borrower"
+   },
+   {
+    "amount": 100000,
+    "appliedAdjustors": 0,
+    "APR": 0.09661590576171872,
+    "cltv": 0.284189304406474,
+    "creditScore": 836,
+    "date": "2025-04-28T12:54:15.353Z",
+    "debtToIncomeRatio": 0.20203155818540433,
+    "homeValue": 550077,
+    "initialDrawAmount": 96802.97,
+    "interestRate": 0.0935,
+    "loanCountyFIPS": "51003",
+    "marginRate": 0.0185,
+    "maximumInitialDraw": 100000,
+    "maxOffer": 383735,
+    "maxOfferBasedOnCLTV": 383735.6,
+    "maxOfferBasedOnDTI": 387123,
+    "maxOfferBasedOnStateCap": 400000,
+    "minimumInitialDraw": 75000,
+    "minOffer": 100000,
+    "monthlyInterestCharge": 77.91666666666667,
+    "monthlyPayment": 779.17,
+    "netFundingWiredToBank": 97260,
+    "pricingEngineCreatedAt": "2025-03-18T14:39:36.786Z",
+    "pricingEngineId": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE",
+    "primeRate": 0.075,
+    "trigger": "createFinalOffer",
+    "type": "final",
+    "userEmail": "system",
+    "userRoleName": "system"
+   },
+   {
+    "amount": 175000,
+    "appliedAdjustors": 0,
+    "APR": 0.09661590576171872,
+    "cltv": 0.4205338525333726,
+    "creditScore": 836,
+    "date": "2025-04-28T12:57:55.531Z",
+    "debtToIncomeRatio": 0.2711883629191322,
+    "homeValue": 550077,
+    "initialDrawAmount": 169822.97,
+    "interestRate": 0.0935,
+    "loanCountyFIPS": "51003",
+    "marginRate": 0.0185,
+    "maximumInitialDraw": 175000,
+    "maxOffer": 383735,
+    "maxOfferBasedOnCLTV": 383735.6,
+    "maxOfferBasedOnDTI": 387123,
+    "maxOfferBasedOnStateCap": 400000,
+    "minimumInitialDraw": 131250,
+    "minOffer": 175000,
+    "monthlyInterestCharge": 136.35416666666666,
+    "monthlyPayment": 1363.54,
+    "netFundingWiredToBank": 170205,
+    "pricingEngineCreatedAt": "2025-03-18T14:39:36.786Z",
+    "pricingEngineId": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE",
+    "primeRate": 0.075,
+    "trigger": "changeOfferAmount/changeFinalOfferAmount",
+    "type": "final",
+    "userEmail": "rfm@yopmail.com",
+    "userRoleName": "Borrower"
+   },
+   {
+    "amount": 175000,
+    "appliedAdjustors": 0,
+    "APR": 0.09661590576171872,
+    "cltv": 0.4205338525333726,
+    "creditScore": 836,
+    "date": "2025-04-28T12:58:11.097Z",
+    "debtToIncomeRatio": 0.2711883629191322,
+    "homeValue": 550077,
+    "initialDrawAmount": 169822.97,
+    "interestRate": 0.0935,
+    "loanCountyFIPS": "51003",
+    "marginRate": 0.0185,
+    "maximumInitialDraw": 175000,
+    "maxOffer": 250000,
+    "maxOfferBasedOnCLTV": 383735.6,
+    "maxOfferBasedOnDTI": 387123,
+    "maxOfferBasedOnStateCap": 400000,
+    "minimumInitialDraw": 131250,
+    "minOffer": 175000,
+    "monthlyInterestCharge": 136.35416666666666,
+    "monthlyPayment": 1363.54,
+    "netFundingWiredToBank": 170205,
+    "pricingEngineCreatedAt": "2025-03-18T14:39:36.786Z",
+    "pricingEngineId": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE",
+    "primeRate": 0.075,
+    "trigger": "acceptOffer/acceptFinalOffer",
+    "type": "final",
+    "userEmail": "rfm@yopmail.com",
+    "userRoleName": "Borrower"
+   },
+   {
+    "amount": 175000,
+    "appliedAdjustors": 0,
+    "APR": 0.09661590576171872,
+    "cltv": 0.4205338525333726,
+    "creditScore": 836,
+    "date": "2025-04-28T12:58:18.997Z",
+    "debtToIncomeRatio": 0.2711883629191322,
+    "homeValue": 550077,
+    "initialDrawAmount": 169822.97,
+    "interestRate": 0.0935,
+    "loanCountyFIPS": "51003",
+    "marginRate": 0.0185,
+    "maximumInitialDraw": 175000,
+    "maxOffer": 250000,
+    "maxOfferBasedOnCLTV": 383735.6,
+    "maxOfferBasedOnDTI": 387123,
+    "maxOfferBasedOnStateCap": 400000,
+    "minimumInitialDraw": 131250,
+    "minOffer": 175000,
+    "monthlyInterestCharge": 136.35416666666666,
+    "monthlyPayment": 1363.54,
+    "netFundingWiredToBank": 170205,
+    "pricingEngineCreatedAt": "2025-03-18T14:39:36.786Z",
+    "pricingEngineId": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE",
+    "primeRate": 0.075,
+    "trigger": "getClosingReview",
+    "type": "final",
+    "userEmail": "system",
+    "userRoleName": "system"
+   },
+   {
+    "amount": 175000,
+    "appliedAdjustors": 0,
+    "APR": 0.09661590576171872,
+    "cltv": 0.4205338525333726,
+    "creditScore": 836,
+    "date": "2025-04-28T12:58:45.065Z",
+    "debtToIncomeRatio": 0.2711883629191322,
+    "homeValue": 550077,
+    "initialDrawAmount": 169486.3,
+    "interestRate": 0.0935,
+    "loanCountyFIPS": "51003",
+    "marginRate": 0.0185,
+    "maximumInitialDraw": 175000,
+    "maxOffer": 250000,
+    "maxOfferBasedOnCLTV": 383735.6,
+    "maxOfferBasedOnDTI": 387123,
+    "maxOfferBasedOnStateCap": 400000,
+    "minimumInitialDraw": 131250,
+    "minOffer": 175000,
+    "monthlyInterestCharge": 136.35416666666666,
+    "monthlyPayment": 1363.54,
+    "netFundingWiredToBank": 170205,
+    "pricingEngineCreatedAt": "2025-03-18T14:39:36.786Z",
+    "pricingEngineId": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE",
+    "primeRate": 0.075,
+    "trigger": "getClosingReview",
+    "type": "final",
+    "userEmail": "system",
+    "userRoleName": "system"
+   },
+   {
+    "amount": 175000,
+    "appliedAdjustors": 0,
+    "APR": 0.09661590576171872,
+    "cltv": 0.4205338525333726,
+    "creditScore": 836,
+    "date": "2025-04-28T12:59:04.612Z",
+    "debtToIncomeRatio": 0.2711883629191322,
+    "homeValue": 550077,
+    "initialDrawAmount": 169486.3,
+    "interestRate": 0.0935,
+    "loanCountyFIPS": "51003",
+    "marginRate": 0.0185,
+    "maximumInitialDraw": 175000,
+    "maxOffer": 250000,
+    "maxOfferBasedOnCLTV": 383735.6,
+    "maxOfferBasedOnDTI": 387123,
+    "maxOfferBasedOnStateCap": 400000,
+    "minimumInitialDraw": 131250,
+    "minOffer": 175000,
+    "monthlyInterestCharge": 136.35416666666666,
+    "monthlyPayment": 1363.54,
+    "netFundingWiredToBank": 170205,
+    "pricingEngineCreatedAt": "2025-03-18T14:39:36.786Z",
+    "pricingEngineId": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE",
+    "primeRate": 0.075,
+    "trigger": "sendFinalDisclosures",
+    "type": "final",
+    "userEmail": "system",
+    "userRoleName": "system"
+   }
+  ],
+  "originationPoints": 4795,
+  "pointsFees": 5513.7,
+  "prequalOffer": {
+   "amount": 100000,
+   "annualIncome": 263636,
+   "appliedAdjustors": 0,
+   "APR": 0.09661590576171872,
+   "cltv": 0.284189304406474,
+   "createdAt": "2025-04-28T12:51:43.563Z",
+   "creditScore": 836,
+   "currentLoanBalance": 100000,
+   "debtToIncomeRatio": 0.08517046230408594,
+   "employerNameBorrower": "2",
+   "homeValue": 550077,
+   "initialDrawAmount": 100000,
+   "interestRate": 0.0935,
+   "loanCountyFIPS": "51003",
+   "marginRate": 0.0185,
+   "maximumInitialDraw": 100000,
+   "maxOffer": 383735,
+   "minimumInitialDraw": 75000,
+   "minOffer": 100000,
+   "monthlyDebtLoad": 1092,
+   "monthlyInterestCharge": 77.91666666666667,
+   "monthlyPayment": 779.17,
+   "monthlyPaymentInitialDraw": 779.17,
+   "netFundingWiredToBank": 97260,
+   "pricingEngineCreatedAt": "2025-03-18T14:39:36.786Z",
+   "pricingEngineId": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE",
+   "primeRate": 0.075,
+   "startDateBorrower": "1945-01-01",
+   "totalAnnualIncomeBorrower": 263636,
+   "updatedAt": "2025-04-28T12:51:59.987Z",
+   "useProceeds": "Home Improvement"
+  },
+  "pricingEngineCreatedAt": "2025-03-18T14:39:36.786Z",
+  "pricingEngineId": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE",
+  "privateLabelId": "PRIVATE#LABEL#test.nftydoor.com",
+  "property": {
+   "address": {
+    "analysis": {
+     "active": "Y",
+     "dpv_cmra": "N",
+     "dpv_footnotes": "AABB",
+     "dpv_match_code": "Y",
+     "dpv_no_stat": "N",
+     "dpv_vacant": "N",
+     "enhanced_match": "postal-match"
+    },
+    "candidate_index": 0,
+    "components": {
+     "city_name": "Greenwood",
+     "default_city_name": "Greenwood",
+     "delivery_point": "00",
+     "delivery_point_check_digit": "7",
+     "plus4_code": "1705",
+     "primary_number": "8100",
+     "state_abbreviation": "VA",
+     "street_name": "Summer Rest",
+     "street_suffix": "Ln",
+     "zipcode": "22943"
+    },
+    "delivery_line_1": "8100 Summer Rest Ln",
+    "delivery_point_barcode": "229431705007",
+    "input_index": 0,
+    "last_line": "Greenwood VA 22943-1705",
+    "metadata": {
+     "carrier_route": "R001",
+     "congressional_district": "05",
+     "county_fips": "51003",
+     "county_name": "Albemarle",
+     "dst": true,
+     "elot_sequence": "0022",
+     "elot_sort": "A",
+     "latitude": 38.0466,
+     "longitude": -78.78345,
+     "precision": "Zip9",
+     "rdi": "Residential",
+     "record_type": "S",
+     "time_zone": "Eastern",
+     "utc_offset": -5,
+     "zip_type": "Standard"
+    },
+    "smarty_key": "2132167602"
+   },
+   "addressInformation": {
+    "APN": "05400-00-00-015A3",
+    "City": "GREENWOOD",
+    "County": "ALBEMARLE",
+    "SitusCarrierRoute": "R001",
+    "State": "VA",
+    "StreetAddress": "8100 SUMMER REST LN",
+    "Zip9": "22943-1705"
+   },
+   "apartmentOrUnit": null,
+   "apn": "05400-00-00-015A3",
+   "borrowerName": "Ronald",
+   "candidates": null,
+   "censusTract": "011201",
+   "communityName": "ALBEMARLE COUNTY UNINCORPORATED AREAS",
+   "county": "ALBEMARLE",
+   "countyFips": 51003,
+   "createdAt": "2025-04-28T12:53:31.283Z",
+   "firstMortgageAmount": 359371,
+   "floodMapDate": "2010-06-18T00:00:00",
+   "floodMapPanelNumber": "0050B",
+   "floodZoneCode": "X",
+   "fullAddress": "8100 Summer Rest Ln, Greenwood, VA, 22943",
+   "homeValue": 550077,
+   "insideSFHA": "F",
+   "isMultipleProperty": null,
+   "isUnsupportedCountyFips": false,
+   "key": "100545844699416/admin/FA Property Report_100545844699416.pdf",
+   "landUse": "sfr",
+   "legalBlock": "",
+   "legalBookPage": "",
+   "legalDescription": "ACREAGE PARCEL 4",
+   "legalLot": "4",
+   "loanId": "100545844699416",
+   "notHomesteadTX": false,
+   "NPE": "SCHULTZ FELICIA MARTIN",
+   "ownerInformation": {
+    "MailingAddress": {
+     "City": "GREENWOOD",
+     "MailCarrierRoute": "R001",
+     "State": "VA",
+     "StreetAddress": "8100 SUMMER REST LN",
+     "Zip9": "22943-1705"
+    },
+    "Occupancy": "Unknown",
+    "Owner1FullName": "SCHULTZ FELICIA MARTIN",
+    "Owner2FullName": "",
+    "Owner3FullName": "",
+    "Owner4FullName": "",
+    "OwnerNames": "SCHULTZ FELICIA MARTIN",
+    "OwnerOccupiedIndicator": "",
+    "OwnerVestingInfo": {
+     "VestingEtal": "",
+     "VestingOwner": "",
+     "VestingOwnershipRight": ""
+    }
+   },
+   "propertyId": 137757963,
+   "subdivition": "SAMUEL MILLER MAGISTERIAL DIST",
+   "unitsResidential": 1,
+   "updatedAt": "2025-04-28T12:53:31.283Z",
+   "userId": "38116bc5-dfbf-4261-b4e2-e91343d57607",
+   "yearBuilt": "1754",
+   "zendesk": {
+    "ticketBorrower": [
+    ],
+    "ticketNPE": [
+    ]
+   }
+  },
+  "remainingTerm": 360,
+  "servicer": "Shellpoint",
+  "stageCreatedAt": "2025-04-28T12:59:31.647Z",
+  "starList": [
+   {
+    "id": "de2da9fc-dbca-4cb9-8cb1-9087ce240a3b",
+    "createdAt": "2025-04-28T12:54:08.293Z",
+    "firstName": "barlo6",
+    "isAssigned": true,
+    "isStarred": true,
+    "lastName": "vazquez",
+    "team": "DTI",
+    "userType": "ADMIN"
+   }
+  ],
+  "starredHistory": [
+   {
+    "id": "de2da9fc-dbca-4cb9-8cb1-9087ce240a3b",
+    "firstName": "barlo6",
+    "lastName": "vazquez",
+    "reAssigned": false,
+    "starredAt": "2025-04-28T12:54:08.294Z",
+    "team": "DTI"
+   }
+  ],
+  "submittedByLO": true,
+  "submittedByLOAt": "2025-04-28T12:52:53.890Z",
+  "uliData": {
+   "isValid": true,
+   "uliNumber": "5493001WHVQBGRSWEU7510054584469941666"
+  },
+  "updatedAt": 1746450252
+ }
