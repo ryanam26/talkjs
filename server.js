@@ -9,15 +9,15 @@ import path from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const openai = new OpenAI({ apiKey: "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" });
+const openai = new OpenAI({ apiKey: "" });
 const FILE_ID = "file-9y5AdchT9ku5F85QEE9mbh"; // Replace with your file ID from setupAssistant.js
 const assistantId = "asst_LaSbePFcU2LOBCmQPW03uHql"; // Replace with your assistant ID from setupAssistant.js
 
 const app = express().use(express.json());
 
 // const appId = "sk_test_m0NaRqSMLILlU58kSHiekbMeRNMwobzO";
-const appId = "tgga7aVE"; // TODO: Replace with your actual TalkJS App ID from the TalkJS dashboard
-const talkJSSecretKey = "sk_test_m0NaRqSMLILlU58kSHiekbMeRNMwobzO";
+const appId = ""; // TODO: Replace with your actual TalkJS App ID from the TalkJS dashboard
+const talkJSSecretKey = "";
 const basePath = "https://api.talkjs.com";
 const botId = "chatbotExampleBot";
 const threadMap = {}; // convId -> threadId
